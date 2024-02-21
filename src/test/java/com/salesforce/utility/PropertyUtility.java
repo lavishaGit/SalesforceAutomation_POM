@@ -26,7 +26,7 @@ public class PropertyUtility{
             // Save the updated properties to the file
             properties.store(fs, "write");
 
-            System.out.println("Property '" + key + "' written to " + path);
+            System.out.println("Property '" + key + "'  is written to " + path);
         } catch (IOException e) {
             e.printStackTrace();
         }
