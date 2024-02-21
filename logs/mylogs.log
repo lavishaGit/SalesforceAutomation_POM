@@ -1,0 +1,961 @@
+20240216 22:45:29 INFO  [main] utility.SalesforceListenerUtility SalesforceListenerUtility.java62 - .......<test> execution started........
+20240216 22:45:29 INFO  [main] base.BaseTest BaseTest.java46 - .........BeforeMethod  executed---------------
+20240216 22:45:31 INFO  [main] base.BaseTest BaseTest.java66 - Browser instance has started
+20240216 22:45:34 INFO  [main] base.BaseTest BaseTest.java147 - https://login.salesforce.com/ is entered
+20240216 22:45:34 INFO  [main] base.BaseTest BaseTest.java180 - Waiting until page loads within  expectedtime period
+20240216 22:45:34 INFO  [main] utility.SalesforceListenerUtility SalesforceListenerUtility.java27 - loginPage_EmptyPassword.......test execution started........
+20240216 22:45:34 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java38 - ..............started loginPage_EmptyPassword...............
+20240216 22:45:34 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java49 - Login | Salesforce  matched with Login | Salesforce
+20240216 22:45:34 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java57 - Assertion passed: Actual title is equal to Expected title
+20240216 22:45:34 INFO  [main] base.BasePage BasePage.java89 - UserName  IS WAITED FOR VISIBLITY
+20240216 22:45:34 INFO  [main] base.BasePage BasePage.java140 - [[ChromeDriver: chrome on MAC (7d186d9026baa6c06a7c7bdc290c68cb)] -> xpath: //*[@id='username']]Is enabled and clicked
+20240216 22:45:34 INFO  [main] base.BasePage BasePage.java144 - Username textboxIs displayed  in textarea
+20240216 22:45:34 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java60 - User name entered
+20240216 22:45:34 INFO  [main] base.BasePage BasePage.java140 - [[ChromeDriver: chrome on MAC (7d186d9026baa6c06a7c7bdc290c68cb)] -> xpath: //*[@id='password']]Is enabled and clicked
+20240216 22:45:34 INFO  [main] base.BasePage BasePage.java144 - password field Is displayed  in textarea
+20240216 22:45:34 INFO  [main] base.BasePage BasePage.java89 - Login Button IS WAITED FOR VISIBLITY
+20240216 22:45:35 INFO  [main] base.BasePage BasePage.java70 - Login ButtonIs enabled and clicked
+20240216 22:45:35 INFO  [main] base.BasePage BasePage.java236 - Element extracted text is = Please enter your password.
+20240216 22:45:35 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java72 - Please enter your password.  matched with Please enter your password.
+20240216 22:45:35 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java83 - ..............ended loginPage_EmptyPassword................
+20240216 22:45:35 INFO  [main] utility.SalesforceListenerUtility SalesforceListenerUtility.java36 - loginPage_EmptyPassword.......test execution sucess........
+20240216 22:45:35 INFO  [main] base.BaseTest BaseTest.java138 - browser is closed
+20240216 22:45:35 INFO  [main] base.BaseTest BaseTest.java56 - ******tearDownAfterTestMethod executed***********
+20240216 22:45:35 INFO  [main] utility.SalesforceListenerUtility SalesforceListenerUtility.java70 - .......<test> execution completed........
+20240216 23:22:37 INFO  [main] utility.SalesforceListenerUtility SalesforceListenerUtility.java62 - .......<test> execution started........
+20240216 23:22:37 INFO  [main] base.BaseTest BaseTest.java46 - .........BeforeMethod  executed---------------
+20240216 23:22:37 INFO  [main] base.BaseTest BaseTest.java66 - Browser instance has started
+20240216 23:22:39 INFO  [main] base.BaseTest BaseTest.java147 - https://login.salesforce.com/ is entered
+20240216 23:22:39 INFO  [main] base.BaseTest BaseTest.java180 - Waiting until page loads within  expectedtime period
+20240216 23:22:39 INFO  [main] utility.SalesforceListenerUtility SalesforceListenerUtility.java27 - login_Homepage.......test execution started........
+20240216 23:22:39 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java89 - ..............stated login_Homepage()...............
+20240216 23:22:39 INFO  [main] base.BasePage BasePage.java217 - Current URL is = https://login.salesforce.com/
+20240216 23:22:40 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java100 - https://login.salesforce.com/  matched with https://login.salesforce.com/
+20240216 23:22:40 INFO  [main] base.BasePage BasePage.java89 - UserName  IS WAITED FOR VISIBLITY
+20240216 23:22:40 INFO  [main] base.BasePage BasePage.java140 - [[ChromeDriver: chrome on MAC (2843f6a89d46f439df97e1052404ef7b)] -> xpath: //*[@id='username']]Is enabled and clicked
+20240216 23:22:40 INFO  [main] base.BasePage BasePage.java144 - Username textboxIs displayed  in textarea
+20240216 23:22:40 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java110 - User name entered successfully
+20240216 23:22:40 INFO  [main] base.BasePage BasePage.java140 - [[ChromeDriver: chrome on MAC (2843f6a89d46f439df97e1052404ef7b)] -> xpath: //*[@id='password']]Is enabled and clicked
+20240216 23:22:40 INFO  [main] base.BasePage BasePage.java144 - password field Is displayed  in textarea
+20240216 23:22:40 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java113 - Password entered successfully
+20240216 23:22:40 INFO  [main] base.BasePage BasePage.java89 - Login Button IS WAITED FOR VISIBLITY
+20240216 23:22:41 INFO  [main] base.BasePage BasePage.java70 - Login ButtonIs enabled and clicked
+20240216 23:22:41 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java121 - Login | Salesforce  matched with Home Page ~ Salesforce - Developer Edition
+20240216 23:22:41 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java130 - ..............ended login_Homepage()...............
+20240216 23:22:41 INFO  [main] utility.SalesforceListenerUtility SalesforceListenerUtility.java36 - login_Homepage.......test execution sucess........
+20240216 23:22:41 INFO  [main] base.BaseTest BaseTest.java138 - browser is closed
+20240216 23:22:41 INFO  [main] base.BaseTest BaseTest.java56 - ******tearDownAfterTestMethod executed***********
+20240216 23:22:41 INFO  [main] utility.SalesforceListenerUtility SalesforceListenerUtility.java70 - .......<test> execution completed........
+20240216 23:34:41 INFO  [main] utility.SalesforceListenerUtility SalesforceListenerUtility.java62 - .......<test> execution started........
+20240216 23:34:41 INFO  [main] base.BaseTest BaseTest.java46 - .........BeforeMethod  executed---------------
+20240216 23:34:41 INFO  [main] base.BaseTest BaseTest.java66 - Browser instance has started
+20240216 23:34:43 INFO  [main] base.BaseTest BaseTest.java147 - https://login.salesforce.com/ is entered
+20240216 23:34:43 INFO  [main] base.BaseTest BaseTest.java180 - Waiting until page loads within  expectedtime period
+20240216 23:34:43 INFO  [main] utility.SalesforceListenerUtility SalesforceListenerUtility.java27 - login_Homepage.......test execution started........
+20240216 23:34:43 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java92 - ..............stated login_Homepage()...............
+20240216 23:34:44 INFO  [main] base.BasePage BasePage.java217 - Current URL is = https://login.salesforce.com/
+20240216 23:34:44 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java103 - https://login.salesforce.com/  matched with https://login.salesforce.com/
+20240216 23:34:44 INFO  [main] base.BasePage BasePage.java89 - UserName  IS WAITED FOR VISIBLITY
+20240216 23:34:44 INFO  [main] base.BasePage BasePage.java140 - [[ChromeDriver: chrome on MAC (adc26d5a86c9b6ae30af0bd3ef536d28)] -> xpath: //*[@id='username']]Is enabled and clicked
+20240216 23:34:44 INFO  [main] base.BasePage BasePage.java144 - Username textboxIs displayed  in textarea
+20240216 23:34:44 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java113 - User name entered successfully
+20240216 23:34:44 INFO  [main] base.BasePage BasePage.java140 - [[ChromeDriver: chrome on MAC (adc26d5a86c9b6ae30af0bd3ef536d28)] -> xpath: //*[@id='password']]Is enabled and clicked
+20240216 23:34:44 INFO  [main] base.BasePage BasePage.java144 - password field Is displayed  in textarea
+20240216 23:34:44 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java116 - Password entered successfully
+20240216 23:34:44 INFO  [main] base.BasePage BasePage.java89 - Login Button IS WAITED FOR VISIBLITY
+20240216 23:34:45 INFO  [main] base.BasePage BasePage.java70 - Login ButtonIs enabled and clicked
+20240216 23:34:45 ERROR [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java128 - Login | Salesforcenot   matched with Home Page ~ Salesforce - Developer Edition
+20240216 23:34:45 ERROR [main] utility.SalesforceListenerUtility SalesforceListenerUtility.java45 - login_Homepage.......test execution completed with failure........
+20240216 23:34:45 ERROR [main] base.BaseTest BaseTest.java173 - Error while capturing  the screenshot
+20240216 23:34:45 INFO  [main] base.BaseTest BaseTest.java138 - browser is closed
+20240216 23:34:45 INFO  [main] base.BaseTest BaseTest.java56 - ******tearDownAfterTestMethod executed***********
+20240216 23:34:45 INFO  [main] utility.SalesforceListenerUtility SalesforceListenerUtility.java70 - .......<test> execution completed........
+20240216 23:41:35 INFO  [main] utility.SalesforceListenerUtility SalesforceListenerUtility.java62 - .......<test> execution started........
+20240216 23:41:35 INFO  [main] base.BaseTest BaseTest.java46 - .........BeforeMethod  executed---------------
+20240216 23:41:35 INFO  [main] base.BaseTest BaseTest.java66 - Browser instance has started
+20240216 23:41:37 INFO  [main] base.BaseTest BaseTest.java147 - https://login.salesforce.com/ is entered
+20240216 23:41:37 INFO  [main] base.BaseTest BaseTest.java180 - Waiting until page loads within  expectedtime period
+20240216 23:41:37 INFO  [main] utility.SalesforceListenerUtility SalesforceListenerUtility.java27 - login_Homepage.......test execution started........
+20240216 23:41:37 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java92 - ..............stated login_Homepage()...............
+20240216 23:41:37 INFO  [main] base.BasePage BasePage.java217 - Current URL is = https://login.salesforce.com/
+20240216 23:41:37 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java103 - https://login.salesforce.com/  matched with https://login.salesforce.com/
+20240216 23:41:37 INFO  [main] base.BasePage BasePage.java89 - UserName  IS WAITED FOR VISIBLITY
+20240216 23:41:37 INFO  [main] base.BasePage BasePage.java140 - [[ChromeDriver: chrome on MAC (c86d077ccd70ee25b2e8add1090de90e)] -> xpath: //*[@id='username']]Is enabled and clicked
+20240216 23:41:37 INFO  [main] base.BasePage BasePage.java144 - Username textboxIs displayed  in textarea
+20240216 23:41:37 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java113 - User name entered successfully
+20240216 23:41:38 INFO  [main] base.BasePage BasePage.java140 - [[ChromeDriver: chrome on MAC (c86d077ccd70ee25b2e8add1090de90e)] -> xpath: //*[@id='password']]Is enabled and clicked
+20240216 23:41:38 INFO  [main] base.BasePage BasePage.java144 - password field Is displayed  in textarea
+20240216 23:41:38 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java116 - Password entered successfully
+20240216 23:41:38 INFO  [main] base.BasePage BasePage.java89 - Login Button IS WAITED FOR VISIBLITY
+20240216 23:41:38 INFO  [main] base.BasePage BasePage.java70 - Login ButtonIs enabled and clicked
+20240216 23:41:42 ERROR [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java129 - Login | Salesforce not   matched with Home Page ~ Salesforce - Developer Edition
+20240216 23:41:42 ERROR [main] utility.SalesforceListenerUtility SalesforceListenerUtility.java45 - login_Homepage.......test execution completed with failure........
+20240216 23:41:43 ERROR [main] base.BaseTest BaseTest.java173 - Error while capturing  the screenshot
+20240216 23:41:43 INFO  [main] base.BaseTest BaseTest.java138 - browser is closed
+20240216 23:41:43 INFO  [main] base.BaseTest BaseTest.java56 - ******tearDownAfterTestMethod executed***********
+20240216 23:41:43 INFO  [main] utility.SalesforceListenerUtility SalesforceListenerUtility.java70 - .......<test> execution completed........
+20240216 23:42:04 INFO  [main] utility.SalesforceListenerUtility SalesforceListenerUtility.java62 - .......<test> execution started........
+20240216 23:42:04 INFO  [main] base.BaseTest BaseTest.java46 - .........BeforeMethod  executed---------------
+20240216 23:42:04 INFO  [main] base.BaseTest BaseTest.java66 - Browser instance has started
+20240216 23:42:06 INFO  [main] base.BaseTest BaseTest.java147 - https://login.salesforce.com/ is entered
+20240216 23:42:06 INFO  [main] base.BaseTest BaseTest.java180 - Waiting until page loads within  expectedtime period
+20240216 23:42:06 INFO  [main] utility.SalesforceListenerUtility SalesforceListenerUtility.java27 - login_Homepage.......test execution started........
+20240216 23:42:06 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java92 - ..............stated login_Homepage()...............
+20240216 23:42:06 INFO  [main] base.BasePage BasePage.java217 - Current URL is = https://login.salesforce.com/
+20240216 23:42:06 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java103 - https://login.salesforce.com/  matched with https://login.salesforce.com/
+20240216 23:42:06 INFO  [main] base.BasePage BasePage.java89 - UserName  IS WAITED FOR VISIBLITY
+20240216 23:42:07 INFO  [main] base.BasePage BasePage.java140 - [[ChromeDriver: chrome on MAC (e5da91dc9ed77c214416ee04b915eb5d)] -> xpath: //*[@id='username']]Is enabled and clicked
+20240216 23:42:07 INFO  [main] base.BasePage BasePage.java144 - Username textboxIs displayed  in textarea
+20240216 23:42:07 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java113 - User name entered successfully
+20240216 23:42:07 INFO  [main] base.BasePage BasePage.java140 - [[ChromeDriver: chrome on MAC (e5da91dc9ed77c214416ee04b915eb5d)] -> xpath: //*[@id='password']]Is enabled and clicked
+20240216 23:42:07 INFO  [main] base.BasePage BasePage.java144 - password field Is displayed  in textarea
+20240216 23:42:07 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java116 - Password entered successfully
+20240216 23:42:07 INFO  [main] base.BasePage BasePage.java89 - Login Button IS WAITED FOR VISIBLITY
+20240216 23:42:10 INFO  [main] base.BasePage BasePage.java70 - Login ButtonIs enabled and clicked
+20240216 23:42:14 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java126 - Home Page ~ Salesforce - Developer Edition  matched with Home Page ~ Salesforce - Developer Edition
+20240216 23:42:14 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java135 - ..............ended login_Homepage()...............
+20240216 23:42:14 INFO  [main] utility.SalesforceListenerUtility SalesforceListenerUtility.java36 - login_Homepage.......test execution sucess........
+20240216 23:42:14 INFO  [main] base.BaseTest BaseTest.java138 - browser is closed
+20240216 23:42:14 INFO  [main] base.BaseTest BaseTest.java56 - ******tearDownAfterTestMethod executed***********
+20240216 23:42:14 INFO  [main] utility.SalesforceListenerUtility SalesforceListenerUtility.java70 - .......<test> execution completed........
+20240217 00:24:32 INFO  [main] utility.SalesforceListenerUtility SalesforceListenerUtility.java62 - .......<test> execution started........
+20240217 00:24:32 INFO  [main] base.BaseTest BaseTest.java46 - .........BeforeMethod  executed---------------
+20240217 00:24:33 INFO  [main] base.BaseTest BaseTest.java66 - Browser instance has started
+20240217 00:24:35 INFO  [main] base.BaseTest BaseTest.java147 - https://login.salesforce.com/ is entered
+20240217 00:24:35 INFO  [main] base.BaseTest BaseTest.java180 - Waiting until page loads within  expectedtime period
+20240217 00:24:35 INFO  [main] utility.SalesforceListenerUtility SalesforceListenerUtility.java27 - rememberUser_checkbox.......test execution started........
+20240217 00:24:35 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java144 - ..............stated  rememberUser_checkbox..............
+20240217 00:24:35 INFO  [main] base.BasePage BasePage.java86 - UserName  IS WAITED FOR VISIBLITY
+20240217 00:24:35 INFO  [main] base.BasePage BasePage.java137 - [[ChromeDriver: chrome on MAC (bb927a728dcd594559738204f27ed933)] -> xpath: //*[@id='username']]Is enabled and clicked
+20240217 00:24:35 INFO  [main] base.BasePage BasePage.java141 - Username textboxIs displayed  in textarea
+20240217 00:24:35 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java151 - User name entered successfully
+20240217 00:24:36 INFO  [main] base.BasePage BasePage.java137 - [[ChromeDriver: chrome on MAC (bb927a728dcd594559738204f27ed933)] -> xpath: //*[@id='password']]Is enabled and clicked
+20240217 00:24:36 INFO  [main] base.BasePage BasePage.java141 - password field Is displayed  in textarea
+20240217 00:24:36 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java154 - Password entered successfully
+20240217 00:24:36 INFO  [main] base.BasePage BasePage.java86 - Login Button IS WAITED FOR VISIBLITY
+20240217 00:24:36 INFO  [main] base.BasePage BasePage.java67 - Login ButtonIs enabled and clicked
+20240217 00:24:36 INFO  [main] base.BasePage BasePage.java86 - Remember me checkbox IS WAITED FOR VISIBLITY
+20240217 00:24:37 INFO  [main] base.BasePage BasePage.java67 - Remember me Is enabled and clicked
+20240217 00:24:37 ERROR [main] utility.SalesforceListenerUtility SalesforceListenerUtility.java45 - rememberUser_checkbox.......test execution completed with failure........
+20240217 00:24:37 ERROR [main] base.BaseTest BaseTest.java173 - Error while capturing  the screenshot
+20240217 00:24:37 INFO  [main] base.BaseTest BaseTest.java138 - browser is closed
+20240217 00:24:37 INFO  [main] base.BaseTest BaseTest.java56 - ******tearDownAfterTestMethod executed***********
+20240217 00:24:37 INFO  [main] utility.SalesforceListenerUtility SalesforceListenerUtility.java70 - .......<test> execution completed........
+20240217 00:24:54 INFO  [main] utility.SalesforceListenerUtility SalesforceListenerUtility.java62 - .......<test> execution started........
+20240217 00:24:54 INFO  [main] base.BaseTest BaseTest.java46 - .........BeforeMethod  executed---------------
+20240217 00:24:54 INFO  [main] base.BaseTest BaseTest.java66 - Browser instance has started
+20240217 00:24:56 INFO  [main] base.BaseTest BaseTest.java147 - https://login.salesforce.com/ is entered
+20240217 00:24:56 INFO  [main] base.BaseTest BaseTest.java180 - Waiting until page loads within  expectedtime period
+20240217 00:24:56 INFO  [main] utility.SalesforceListenerUtility SalesforceListenerUtility.java27 - rememberUser_checkbox.......test execution started........
+20240217 00:24:56 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java144 - ..............stated  rememberUser_checkbox..............
+20240217 00:24:56 INFO  [main] base.BasePage BasePage.java86 - UserName  IS WAITED FOR VISIBLITY
+20240217 00:24:56 INFO  [main] base.BasePage BasePage.java137 - [[ChromeDriver: chrome on MAC (35ba41fed91c063cafb20ca4e033eb5a)] -> xpath: //*[@id='username']]Is enabled and clicked
+20240217 00:24:56 INFO  [main] base.BasePage BasePage.java141 - Username textboxIs displayed  in textarea
+20240217 00:24:56 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java151 - User name entered successfully
+20240217 00:24:57 INFO  [main] base.BasePage BasePage.java137 - [[ChromeDriver: chrome on MAC (35ba41fed91c063cafb20ca4e033eb5a)] -> xpath: //*[@id='password']]Is enabled and clicked
+20240217 00:24:57 INFO  [main] base.BasePage BasePage.java141 - password field Is displayed  in textarea
+20240217 00:24:57 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java154 - Password entered successfully
+20240217 00:24:57 INFO  [main] base.BasePage BasePage.java86 - Login Button IS WAITED FOR VISIBLITY
+20240217 00:25:00 INFO  [main] base.BasePage BasePage.java67 - Login ButtonIs enabled and clicked
+20240217 00:25:30 ERROR [main] base.BasePage BasePage.java89 - Remember me checkbox timeout exception
+20240217 00:25:30 ERROR [main] utility.SalesforceListenerUtility SalesforceListenerUtility.java45 - rememberUser_checkbox.......test execution completed with failure........
+20240217 00:25:30 ERROR [main] base.BaseTest BaseTest.java173 - Error while capturing  the screenshot
+20240217 00:25:30 INFO  [main] base.BaseTest BaseTest.java138 - browser is closed
+20240217 00:25:30 INFO  [main] base.BaseTest BaseTest.java56 - ******tearDownAfterTestMethod executed***********
+20240217 00:25:31 INFO  [main] utility.SalesforceListenerUtility SalesforceListenerUtility.java70 - .......<test> execution completed........
+20240217 00:29:10 INFO  [main] utility.SalesforceListenerUtility SalesforceListenerUtility.java62 - .......<test> execution started........
+20240217 00:29:10 INFO  [main] base.BaseTest BaseTest.java46 - .........BeforeMethod  executed---------------
+20240217 00:29:10 INFO  [main] base.BaseTest BaseTest.java66 - Browser instance has started
+20240217 00:29:12 INFO  [main] base.BaseTest BaseTest.java147 - https://login.salesforce.com/ is entered
+20240217 00:29:12 INFO  [main] base.BaseTest BaseTest.java180 - Waiting until page loads within  expectedtime period
+20240217 00:29:12 INFO  [main] utility.SalesforceListenerUtility SalesforceListenerUtility.java27 - rememberUser_checkbox.......test execution started........
+20240217 00:29:12 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java144 - ..............stated  rememberUser_checkbox..............
+20240217 00:29:13 INFO  [main] base.BasePage BasePage.java86 - UserName  IS WAITED FOR VISIBLITY
+20240217 00:29:13 INFO  [main] base.BasePage BasePage.java137 - [[ChromeDriver: chrome on MAC (96f76ca35136be94ded5303c6b167319)] -> xpath: //*[@id='username']]Is enabled and clicked
+20240217 00:29:13 INFO  [main] base.BasePage BasePage.java141 - Username textboxIs displayed  in textarea
+20240217 00:29:13 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java151 - User name entered successfully
+20240217 00:29:13 INFO  [main] base.BasePage BasePage.java137 - [[ChromeDriver: chrome on MAC (96f76ca35136be94ded5303c6b167319)] -> xpath: //*[@id='password']]Is enabled and clicked
+20240217 00:29:13 INFO  [main] base.BasePage BasePage.java141 - password field Is displayed  in textarea
+20240217 00:29:13 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java154 - Password entered successfully
+20240217 00:29:13 INFO  [main] base.BasePage BasePage.java86 - Remember me checkbox IS WAITED FOR VISIBLITY
+20240217 00:29:14 INFO  [main] base.BasePage BasePage.java67 - Remember me Is enabled and clicked
+20240217 00:29:14 INFO  [main] base.BasePage BasePage.java86 - Login Button IS WAITED FOR VISIBLITY
+20240217 00:29:16 INFO  [main] base.BasePage BasePage.java67 - Login ButtonIs enabled and clicked
+20240217 00:29:18 ERROR [main] utility.SalesforceListenerUtility SalesforceListenerUtility.java45 - rememberUser_checkbox.......test execution completed with failure........
+20240217 00:29:18 INFO  [main] base.BaseTest BaseTest.java168 - captures the screenshot
+20240217 00:29:18 INFO  [main] base.BaseTest BaseTest.java138 - browser is closed
+20240217 00:29:18 INFO  [main] base.BaseTest BaseTest.java56 - ******tearDownAfterTestMethod executed***********
+20240217 00:29:18 INFO  [main] utility.SalesforceListenerUtility SalesforceListenerUtility.java70 - .......<test> execution completed........
+20240217 00:32:47 INFO  [main] utility.SalesforceListenerUtility SalesforceListenerUtility.java62 - .......<test> execution started........
+20240217 00:32:47 INFO  [main] base.BaseTest BaseTest.java46 - .........BeforeMethod  executed---------------
+20240217 00:32:47 INFO  [main] base.BaseTest BaseTest.java66 - Browser instance has started
+20240217 00:32:50 INFO  [main] base.BaseTest BaseTest.java147 - https://login.salesforce.com/ is entered
+20240217 00:32:50 INFO  [main] base.BaseTest BaseTest.java180 - Waiting until page loads within  expectedtime period
+20240217 00:32:50 INFO  [main] utility.SalesforceListenerUtility SalesforceListenerUtility.java27 - rememberUser_checkbox.......test execution started........
+20240217 00:32:50 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java144 - ..............stated  rememberUser_checkbox..............
+20240217 00:32:50 INFO  [main] base.BasePage BasePage.java87 - UserName  IS WAITED FOR VISIBLITY
+20240217 00:32:50 INFO  [main] base.BasePage BasePage.java138 - [[ChromeDriver: chrome on MAC (bd739c358e08d3428bb6c5c3c161cf4f)] -> xpath: //*[@id='username']]Is enabled and clicked
+20240217 00:32:50 INFO  [main] base.BasePage BasePage.java142 - Username textboxIs displayed  in textarea
+20240217 00:32:50 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java151 - User name entered successfully
+20240217 00:32:51 INFO  [main] base.BasePage BasePage.java138 - [[ChromeDriver: chrome on MAC (bd739c358e08d3428bb6c5c3c161cf4f)] -> xpath: //*[@id='password']]Is enabled and clicked
+20240217 00:32:51 INFO  [main] base.BasePage BasePage.java142 - password field Is displayed  in textarea
+20240217 00:32:51 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java154 - Password entered successfully
+20240217 00:32:51 INFO  [main] base.BasePage BasePage.java87 - Remember me checkbox IS WAITED FOR VISIBLITY
+20240217 00:32:51 INFO  [main] base.BasePage BasePage.java68 - Remember me Is enabled and clicked
+20240217 00:32:51 INFO  [main] base.BasePage BasePage.java87 - Login Button IS WAITED FOR VISIBLITY
+20240217 00:32:56 INFO  [main] base.BasePage BasePage.java68 - Login ButtonIs enabled and clicked
+20240217 00:32:56 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java169 - Home Page ~ Salesforce - Developer Edition  matched with Home Page ~ Salesforce - Developer Edition
+20240217 00:32:56 INFO  [main] base.BasePage BasePage.java87 - User account  IS WAITED FOR VISIBLITY
+20240217 00:33:26 ERROR [main] base.BasePage BasePage.java90 - Logout Button  timeout exception
+20240217 00:33:26 ERROR [main] utility.SalesforceListenerUtility SalesforceListenerUtility.java45 - rememberUser_checkbox.......test execution completed with failure........
+20240217 00:33:26 INFO  [main] base.BaseTest BaseTest.java168 - captures the screenshot
+20240217 00:33:27 INFO  [main] base.BaseTest BaseTest.java138 - browser is closed
+20240217 00:33:27 INFO  [main] base.BaseTest BaseTest.java56 - ******tearDownAfterTestMethod executed***********
+20240217 00:33:27 INFO  [main] utility.SalesforceListenerUtility SalesforceListenerUtility.java70 - .......<test> execution completed........
+20240217 00:35:17 INFO  [main] utility.SalesforceListenerUtility SalesforceListenerUtility.java62 - .......<test> execution started........
+20240217 00:35:17 INFO  [main] base.BaseTest BaseTest.java46 - .........BeforeMethod  executed---------------
+20240217 00:35:17 INFO  [main] base.BaseTest BaseTest.java66 - Browser instance has started
+20240217 00:35:20 INFO  [main] base.BaseTest BaseTest.java147 - https://login.salesforce.com/ is entered
+20240217 00:35:20 INFO  [main] base.BaseTest BaseTest.java180 - Waiting until page loads within  expectedtime period
+20240217 00:35:20 INFO  [main] utility.SalesforceListenerUtility SalesforceListenerUtility.java27 - loginPage_EmptyPassword.......test execution started........
+20240217 00:35:20 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java39 - ..............started loginPage_EmptyPassword...............
+20240217 00:35:20 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java50 - Login | Salesforce  matched with Login | Salesforce
+20240217 00:35:20 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java58 - Assertion passed: Actual title is equal to Expected title
+20240217 00:35:20 INFO  [main] base.BasePage BasePage.java87 - UserName  IS WAITED FOR VISIBLITY
+20240217 00:35:21 INFO  [main] base.BasePage BasePage.java138 - [[ChromeDriver: chrome on MAC (5043d4724d3e6b4ecfa3c63fefcf7849)] -> xpath: //*[@id='username']]Is enabled and clicked
+20240217 00:35:21 INFO  [main] base.BasePage BasePage.java142 - Username textboxIs displayed  in textarea
+20240217 00:35:21 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java61 - User name entered
+20240217 00:35:21 INFO  [main] base.BasePage BasePage.java138 - [[ChromeDriver: chrome on MAC (5043d4724d3e6b4ecfa3c63fefcf7849)] -> xpath: //*[@id='password']]Is enabled and clicked
+20240217 00:35:21 INFO  [main] base.BasePage BasePage.java142 - password field Is displayed  in textarea
+20240217 00:35:21 INFO  [main] base.BasePage BasePage.java87 - Login Button IS WAITED FOR VISIBLITY
+20240217 00:35:21 INFO  [main] base.BasePage BasePage.java68 - Login ButtonIs enabled and clicked
+20240217 00:35:21 INFO  [main] base.BasePage BasePage.java234 - Element extracted text is = Please enter your password.
+20240217 00:35:21 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java73 - Please enter your password.  matched with Please enter your password.
+20240217 00:35:21 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java86 - ..............ended loginPage_EmptyPassword................
+20240217 00:35:21 INFO  [main] utility.SalesforceListenerUtility SalesforceListenerUtility.java36 - loginPage_EmptyPassword.......test execution sucess........
+20240217 00:35:22 INFO  [main] base.BaseTest BaseTest.java138 - browser is closed
+20240217 00:35:22 INFO  [main] base.BaseTest BaseTest.java56 - ******tearDownAfterTestMethod executed***********
+20240217 00:35:22 INFO  [main] utility.SalesforceListenerUtility SalesforceListenerUtility.java70 - .......<test> execution completed........
+20240217 01:14:29 INFO  [main] utility.SalesforceListenerUtility SalesforceListenerUtility.java62 - .......<test> execution started........
+20240217 01:14:29 INFO  [main] base.BaseTest BaseTest.java46 - .........BeforeMethod  executed---------------
+20240217 01:14:29 INFO  [main] base.BaseTest BaseTest.java66 - Browser instance has started
+20240217 01:14:32 INFO  [main] base.BaseTest BaseTest.java147 - https://login.salesforce.com/ is entered
+20240217 01:14:32 INFO  [main] base.BaseTest BaseTest.java180 - Waiting until page loads within  expectedtime period
+20240217 01:14:32 INFO  [main] utility.SalesforceListenerUtility SalesforceListenerUtility.java27 - testForgotPasssword.......test execution started........
+20240217 01:14:32 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java204 - ..............stated testForgotPasssword..............
+20240217 01:14:32 ERROR [main] utility.SalesforceListenerUtility SalesforceListenerUtility.java45 - testForgotPasssword.......test execution completed with failure........
+20240217 01:14:32 INFO  [main] base.BaseTest BaseTest.java168 - captures the screenshot
+20240217 01:14:32 INFO  [main] base.BaseTest BaseTest.java138 - browser is closed
+20240217 01:14:32 INFO  [main] base.BaseTest BaseTest.java56 - ******tearDownAfterTestMethod executed***********
+20240217 01:14:32 INFO  [main] utility.SalesforceListenerUtility SalesforceListenerUtility.java70 - .......<test> execution completed........
+20240217 01:14:46 INFO  [main] utility.SalesforceListenerUtility SalesforceListenerUtility.java62 - .......<test> execution started........
+20240217 01:14:46 INFO  [main] base.BaseTest BaseTest.java46 - .........BeforeMethod  executed---------------
+20240217 01:14:46 INFO  [main] base.BaseTest BaseTest.java66 - Browser instance has started
+20240217 01:14:48 INFO  [main] base.BaseTest BaseTest.java147 - https://login.salesforce.com/ is entered
+20240217 01:14:48 INFO  [main] base.BaseTest BaseTest.java180 - Waiting until page loads within  expectedtime period
+20240217 01:14:48 INFO  [main] utility.SalesforceListenerUtility SalesforceListenerUtility.java27 - testForgotPasssword.......test execution started........
+20240217 01:14:48 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java204 - ..............stated testForgotPasssword..............
+20240217 01:14:49 INFO  [main] base.BasePage BasePage.java68 - Forgot ButtonIs enabled and clicked
+20240217 01:14:49 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java217 - Forgot Your Password | Salesforce  matched with Forgot Your Password | Salesforce
+20240217 01:14:49 INFO  [main] base.BasePage BasePage.java87 - User Name  IS WAITED FOR VISIBLITY
+20240217 01:14:49 INFO  [main] base.BasePage BasePage.java138 - [[ChromeDriver: chrome on MAC (ed64b954e32f95c96d738d9179e72584)] -> xpath: //input[@id='un']]Is enabled and clicked
+20240217 01:14:49 INFO  [main] base.BasePage BasePage.java142 - Username textboxIs displayed  in textarea
+20240217 01:14:50 INFO  [main] base.BasePage BasePage.java68 - Continue Is enabled and clicked
+20240217 01:14:50 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java237 - Check Your Email | Salesforce  matched with Check Your Email | Salesforce
+20240217 01:14:50 INFO  [main] base.BasePage BasePage.java234 - Element extracted text is = Check Your Email
+20240217 01:14:50 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java249 - Check Your Email  matched with Check Your Email
+20240217 01:14:50 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java259 - ..............ended testForgotPasssword..............
+20240217 01:14:50 INFO  [main] utility.SalesforceListenerUtility SalesforceListenerUtility.java36 - testForgotPasssword.......test execution sucess........
+20240217 01:14:50 INFO  [main] base.BaseTest BaseTest.java138 - browser is closed
+20240217 01:14:50 INFO  [main] base.BaseTest BaseTest.java56 - ******tearDownAfterTestMethod executed***********
+20240217 01:14:50 INFO  [main] utility.SalesforceListenerUtility SalesforceListenerUtility.java70 - .......<test> execution completed........
+20240217 01:24:24 INFO  [main] utility.SalesforceListenerUtility SalesforceListenerUtility.java62 - .......<test> execution started........
+20240217 01:24:25 INFO  [main] base.BaseTest BaseTest.java46 - .........BeforeMethod  executed---------------
+20240217 01:24:25 INFO  [main] base.BaseTest BaseTest.java66 - Browser instance has started
+20240217 01:24:27 INFO  [main] base.BaseTest BaseTest.java147 - https://login.salesforce.com/ is entered
+20240217 01:24:27 INFO  [main] base.BaseTest BaseTest.java180 - Waiting until page loads within  expectedtime period
+20240217 01:24:27 INFO  [main] utility.SalesforceListenerUtility SalesforceListenerUtility.java27 - loginErrorMessage.......test execution started........
+20240217 01:24:27 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java265 - ..............stated loginErrorMessage..............
+20240217 01:24:27 INFO  [main] base.BasePage BasePage.java87 - UserName  IS WAITED FOR VISIBLITY
+20240217 01:24:27 INFO  [main] base.BasePage BasePage.java138 - [[ChromeDriver: chrome on MAC (1bd9ed140d973d42094cbad64cb90f00)] -> xpath: //*[@id='username']]Is enabled and clicked
+20240217 01:24:28 INFO  [main] base.BasePage BasePage.java142 - Username textboxIs displayed  in textarea
+20240217 01:24:28 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java272 - User name entered successfully
+20240217 01:24:28 INFO  [main] base.BasePage BasePage.java138 - [[ChromeDriver: chrome on MAC (1bd9ed140d973d42094cbad64cb90f00)] -> xpath: //*[@id='password']]Is enabled and clicked
+20240217 01:24:28 INFO  [main] base.BasePage BasePage.java142 - password field Is displayed  in textarea
+20240217 01:24:28 INFO  [main] base.BasePage BasePage.java87 - Login Button IS WAITED FOR VISIBLITY
+20240217 01:24:29 INFO  [main] base.BasePage BasePage.java68 - Login ButtonIs enabled and clicked
+20240217 01:24:29 INFO  [main] base.BasePage BasePage.java234 - Element extracted text is = Please check your username and password. If you still can't log in, contact your Salesforce administrator.
+20240217 01:24:29 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java283 - Please check your username and password. If you still can't log in, contact your Salesforce administrator.  matched with Please check your username and password. If you still can't log in, contact your Salesforce administrator.
+20240217 01:24:29 INFO  [main] utility.SalesforceListenerUtility SalesforceListenerUtility.java36 - loginErrorMessage.......test execution sucess........
+20240217 01:24:29 INFO  [main] base.BaseTest BaseTest.java138 - browser is closed
+20240217 01:24:29 INFO  [main] base.BaseTest BaseTest.java56 - ******tearDownAfterTestMethod executed***********
+20240217 01:24:29 INFO  [main] utility.SalesforceListenerUtility SalesforceListenerUtility.java70 - .......<test> execution completed........
+20240217 13:22:06 INFO  [main] utility.SalesforceListenerUtility SalesforceListenerUtility.java62 - .......<test> execution started........
+20240217 13:22:06 INFO  [main] base.BaseTest BaseTest.java46 - .........BeforeMethod  executed---------------
+20240217 13:22:07 INFO  [main] base.BaseTest BaseTest.java66 - Browser instance has started
+20240217 13:22:10 INFO  [main] base.BaseTest BaseTest.java147 - https://login.salesforce.com/ is entered
+20240217 13:22:10 INFO  [main] base.BaseTest BaseTest.java180 - Waiting until page loads within  expectedtime period
+20240217 13:22:10 INFO  [main] utility.SalesforceListenerUtility SalesforceListenerUtility.java27 - loginPage_EmptyPassword.......test execution started........
+20240217 13:22:10 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java43 - ..............started loginPage_EmptyPassword...............
+20240217 13:22:10 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java54 - Login | Salesforce  matched with Login | Salesforce
+20240217 13:22:10 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java62 - Assertion passed: Actual title is equal to Expected title
+20240217 13:22:10 INFO  [main] base.BasePage BasePage.java87 - UserName  IS WAITED FOR VISIBLITY
+20240217 13:22:10 INFO  [main] base.BasePage BasePage.java138 - [[ChromeDriver: chrome on MAC (6dcc23848967be0215d6fea132f2b3df)] -> xpath: //*[@id='username']]Is enabled and clicked
+20240217 13:22:11 INFO  [main] base.BasePage BasePage.java142 - Username textboxIs displayed  in textarea
+20240217 13:22:11 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java65 - User name entered
+20240217 13:22:11 INFO  [main] base.BasePage BasePage.java138 - [[ChromeDriver: chrome on MAC (6dcc23848967be0215d6fea132f2b3df)] -> xpath: //*[@id='password']]Is enabled and clicked
+20240217 13:22:11 INFO  [main] base.BasePage BasePage.java142 - password field Is displayed  in textarea
+20240217 13:22:11 INFO  [main] base.BasePage BasePage.java87 - Login Button IS WAITED FOR VISIBLITY
+20240217 13:22:12 INFO  [main] base.BasePage BasePage.java68 - Login ButtonIs enabled and clicked
+20240217 13:22:12 INFO  [main] base.BasePage BasePage.java234 - Element extracted text is = Please enter your password.
+20240217 13:22:12 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java77 - Please enter your password.  matched with Please enter your password.
+20240217 13:22:12 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java90 - ..............ended loginPage_EmptyPassword................
+20240217 13:22:12 INFO  [main] utility.SalesforceListenerUtility SalesforceListenerUtility.java36 - loginPage_EmptyPassword.......test execution sucess........
+20240217 13:22:12 INFO  [main] base.BaseTest BaseTest.java138 - browser is closed
+20240217 13:22:12 INFO  [main] base.BaseTest BaseTest.java56 - ******tearDownAfterTestMethod executed***********
+20240217 13:22:12 INFO  [main] base.BaseTest BaseTest.java46 - .........BeforeMethod  executed---------------
+20240217 13:22:12 INFO  [main] base.BaseTest BaseTest.java66 - Browser instance has started
+20240217 13:22:14 INFO  [main] base.BaseTest BaseTest.java147 - https://login.salesforce.com/ is entered
+20240217 13:22:14 INFO  [main] base.BaseTest BaseTest.java180 - Waiting until page loads within  expectedtime period
+20240217 13:22:14 INFO  [main] utility.SalesforceListenerUtility SalesforceListenerUtility.java27 - testForgotPasssword.......test execution started........
+20240217 13:22:14 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java206 - ..............stated testForgotPasssword..............
+20240217 13:22:14 INFO  [main] base.BasePage BasePage.java68 - Forgot ButtonIs enabled and clicked
+20240217 13:22:14 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java219 - Forgot Your Password | Salesforce  matched with Forgot Your Password | Salesforce
+20240217 13:22:14 INFO  [main] base.BasePage BasePage.java87 - User Name  IS WAITED FOR VISIBLITY
+20240217 13:22:14 INFO  [main] base.BasePage BasePage.java138 - [[ChromeDriver: chrome on MAC (5a2151ed3ea9ac8d061dd9ae0b777611)] -> xpath: //input[@id='un']]Is enabled and clicked
+20240217 13:22:14 INFO  [main] base.BasePage BasePage.java142 - Username textboxIs displayed  in textarea
+20240217 13:22:15 INFO  [main] base.BasePage BasePage.java68 - Continue Is enabled and clicked
+20240217 13:22:15 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java239 - Check Your Email | Salesforce  matched with Check Your Email | Salesforce
+20240217 13:22:15 INFO  [main] base.BasePage BasePage.java234 - Element extracted text is = Check Your Email
+20240217 13:22:15 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java251 - Check Your Email  matched with Check Your Email
+20240217 13:22:15 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java261 - ..............ended testForgotPasssword..............
+20240217 13:22:15 INFO  [main] utility.SalesforceListenerUtility SalesforceListenerUtility.java36 - testForgotPasssword.......test execution sucess........
+20240217 13:22:15 INFO  [main] base.BaseTest BaseTest.java138 - browser is closed
+20240217 13:22:15 INFO  [main] base.BaseTest BaseTest.java56 - ******tearDownAfterTestMethod executed***********
+20240217 13:22:15 INFO  [main] base.BaseTest BaseTest.java46 - .........BeforeMethod  executed---------------
+20240217 13:22:15 INFO  [main] base.BaseTest BaseTest.java66 - Browser instance has started
+20240217 13:22:17 INFO  [main] base.BaseTest BaseTest.java147 - https://login.salesforce.com/ is entered
+20240217 13:22:17 INFO  [main] base.BaseTest BaseTest.java180 - Waiting until page loads within  expectedtime period
+20240217 13:22:17 INFO  [main] utility.SalesforceListenerUtility SalesforceListenerUtility.java27 - loginErrorMessage.......test execution started........
+20240217 13:22:17 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java267 - ..............stated loginErrorMessage..............
+20240217 13:22:17 INFO  [main] base.BasePage BasePage.java87 - UserName  IS WAITED FOR VISIBLITY
+20240217 13:22:17 INFO  [main] base.BasePage BasePage.java138 - [[ChromeDriver: chrome on MAC (77c33b2e4a8b291f644a690e8c95d2f1)] -> xpath: //*[@id='username']]Is enabled and clicked
+20240217 13:22:17 INFO  [main] base.BasePage BasePage.java142 - Username textboxIs displayed  in textarea
+20240217 13:22:17 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java274 - User name entered successfully
+20240217 13:22:17 INFO  [main] base.BasePage BasePage.java138 - [[ChromeDriver: chrome on MAC (77c33b2e4a8b291f644a690e8c95d2f1)] -> xpath: //*[@id='password']]Is enabled and clicked
+20240217 13:22:17 INFO  [main] base.BasePage BasePage.java142 - password field Is displayed  in textarea
+20240217 13:22:17 INFO  [main] base.BasePage BasePage.java87 - Login Button IS WAITED FOR VISIBLITY
+20240217 13:22:18 INFO  [main] base.BasePage BasePage.java68 - Login ButtonIs enabled and clicked
+20240217 13:22:18 INFO  [main] base.BasePage BasePage.java234 - Element extracted text is = Please check your username and password. If you still can't log in, contact your Salesforce administrator.
+20240217 13:22:18 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java285 - Please check your username and password. If you still can't log in, contact your Salesforce administrator.  matched with Please check your username and password. If you still can't log in, contact your Salesforce administrator.
+20240217 13:22:18 INFO  [main] utility.SalesforceListenerUtility SalesforceListenerUtility.java36 - loginErrorMessage.......test execution sucess........
+20240217 13:22:18 INFO  [main] base.BaseTest BaseTest.java138 - browser is closed
+20240217 13:22:18 INFO  [main] base.BaseTest BaseTest.java56 - ******tearDownAfterTestMethod executed***********
+20240217 13:22:18 INFO  [main] base.BaseTest BaseTest.java46 - .........BeforeMethod  executed---------------
+20240217 13:22:18 INFO  [main] base.BaseTest BaseTest.java66 - Browser instance has started
+20240217 13:22:19 INFO  [main] base.BaseTest BaseTest.java147 - https://login.salesforce.com/ is entered
+20240217 13:22:19 INFO  [main] base.BaseTest BaseTest.java180 - Waiting until page loads within  expectedtime period
+20240217 13:22:19 INFO  [main] utility.SalesforceListenerUtility SalesforceListenerUtility.java27 - login_Homepage.......test execution started........
+20240217 13:22:19 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java96 - ..............stated login_Homepage()...............
+20240217 13:22:19 INFO  [main] base.BasePage BasePage.java215 - Current URL is = https://login.salesforce.com/
+20240217 13:22:19 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java107 - https://login.salesforce.com/  matched with https://login.salesforce.com/
+20240217 13:22:19 INFO  [main] base.BasePage BasePage.java87 - UserName  IS WAITED FOR VISIBLITY
+20240217 13:22:20 INFO  [main] base.BasePage BasePage.java138 - [[ChromeDriver: chrome on MAC (62ed266ac7633420ea804826842232aa)] -> xpath: //*[@id='username']]Is enabled and clicked
+20240217 13:22:20 INFO  [main] base.BasePage BasePage.java142 - Username textboxIs displayed  in textarea
+20240217 13:22:20 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java117 - User name entered successfully
+20240217 13:22:20 INFO  [main] base.BasePage BasePage.java138 - [[ChromeDriver: chrome on MAC (62ed266ac7633420ea804826842232aa)] -> xpath: //*[@id='password']]Is enabled and clicked
+20240217 13:22:20 INFO  [main] base.BasePage BasePage.java142 - password field Is displayed  in textarea
+20240217 13:22:20 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java120 - Password entered successfully
+20240217 13:22:20 INFO  [main] base.BasePage BasePage.java87 - Login Button IS WAITED FOR VISIBLITY
+20240217 13:22:23 INFO  [main] base.BasePage BasePage.java68 - Login ButtonIs enabled and clicked
+20240217 13:22:23 ERROR [main] utility.SalesforceListenerUtility SalesforceListenerUtility.java45 - login_Homepage.......test execution completed with failure........
+20240217 13:22:25 INFO  [main] base.BaseTest BaseTest.java168 - captures the screenshot
+20240217 13:22:25 INFO  [main] base.BaseTest BaseTest.java138 - browser is closed
+20240217 13:22:25 INFO  [main] base.BaseTest BaseTest.java56 - ******tearDownAfterTestMethod executed***********
+20240217 13:22:25 INFO  [main] base.BaseTest BaseTest.java46 - .........BeforeMethod  executed---------------
+20240217 13:22:25 INFO  [main] base.BaseTest BaseTest.java66 - Browser instance has started
+20240217 13:22:27 INFO  [main] base.BaseTest BaseTest.java147 - https://login.salesforce.com/ is entered
+20240217 13:22:27 INFO  [main] base.BaseTest BaseTest.java180 - Waiting until page loads within  expectedtime period
+20240217 13:22:27 INFO  [main] utility.SalesforceListenerUtility SalesforceListenerUtility.java27 - rememberUser_checkbox.......test execution started........
+20240217 13:22:27 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java148 - ..............stated  rememberUser_checkbox..............
+20240217 13:22:27 INFO  [main] base.BasePage BasePage.java87 - UserName  IS WAITED FOR VISIBLITY
+20240217 13:22:27 INFO  [main] base.BasePage BasePage.java138 - [[ChromeDriver: chrome on MAC (f357189e404c8fef6950f0605c202a35)] -> xpath: //*[@id='username']]Is enabled and clicked
+20240217 13:22:27 INFO  [main] base.BasePage BasePage.java142 - Username textboxIs displayed  in textarea
+20240217 13:22:27 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java155 - User name entered successfully
+20240217 13:22:28 INFO  [main] base.BasePage BasePage.java138 - [[ChromeDriver: chrome on MAC (f357189e404c8fef6950f0605c202a35)] -> xpath: //*[@id='password']]Is enabled and clicked
+20240217 13:22:28 INFO  [main] base.BasePage BasePage.java142 - password field Is displayed  in textarea
+20240217 13:22:28 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java158 - Password entered successfully
+20240217 13:22:28 INFO  [main] base.BasePage BasePage.java87 - Remember me checkbox IS WAITED FOR VISIBLITY
+20240217 13:22:28 INFO  [main] base.BasePage BasePage.java68 - Remember me Is enabled and clicked
+20240217 13:22:28 INFO  [main] base.BasePage BasePage.java87 - Login Button IS WAITED FOR VISIBLITY
+20240217 13:22:30 INFO  [main] base.BasePage BasePage.java68 - Login ButtonIs enabled and clicked
+20240217 13:22:32 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java173 - Home Page ~ Salesforce - Developer Edition  matched with Home Page ~ Salesforce - Developer Edition
+20240217 13:22:32 INFO  [main] base.BasePage BasePage.java87 - User account  IS WAITED FOR VISIBLITY
+20240217 13:22:34 INFO  [main] base.BasePage BasePage.java87 - Username Label  IS WAITED FOR VISIBLITY
+20240217 13:22:34 ERROR [main] utility.SalesforceListenerUtility SalesforceListenerUtility.java45 - rememberUser_checkbox.......test execution completed with failure........
+20240217 13:22:34 INFO  [main] base.BaseTest BaseTest.java168 - captures the screenshot
+20240217 13:22:35 INFO  [main] base.BaseTest BaseTest.java138 - browser is closed
+20240217 13:22:35 INFO  [main] base.BaseTest BaseTest.java56 - ******tearDownAfterTestMethod executed***********
+20240217 13:22:35 INFO  [main] utility.SalesforceListenerUtility SalesforceListenerUtility.java70 - .......<test> execution completed........
+20240217 14:21:28 INFO  [main] utility.SalesforceListenerUtility SalesforceListenerUtility.java62 - .......<test> execution started........
+20240217 14:21:28 INFO  [main] base.BaseTest BaseTest.java46 - .........BeforeMethod  executed---------------
+20240217 14:21:29 INFO  [main] base.BaseTest BaseTest.java66 - Browser instance has started
+20240217 14:21:31 INFO  [main] base.BaseTest BaseTest.java147 - https://login.salesforce.com/ is entered
+20240217 14:21:31 INFO  [main] base.BaseTest BaseTest.java180 - Waiting until page loads within  expectedtime period
+20240217 14:21:31 INFO  [main] utility.SalesforceListenerUtility SalesforceListenerUtility.java27 - loginPage_EmptyPassword.......test execution started........
+20240217 14:21:31 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java43 - ..............started loginPage_EmptyPassword...............
+20240217 14:21:31 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java54 - Login | Salesforce  matched with Login | Salesforce
+20240217 14:21:31 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java62 - Assertion passed: Actual title is equal to Expected title
+20240217 14:21:31 INFO  [main] base.BasePage BasePage.java87 - UserName  IS WAITED FOR VISIBLITY
+20240217 14:21:31 INFO  [main] base.BasePage BasePage.java138 - [[ChromeDriver: chrome on MAC (c3df41a6c15ebe2e1895cf605d247ab7)] -> xpath: //*[@id='username']]Is enabled and clicked
+20240217 14:21:32 INFO  [main] base.BasePage BasePage.java142 - Username textboxIs displayed  in textarea
+20240217 14:21:32 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java65 - User name entered
+20240217 14:21:32 INFO  [main] base.BasePage BasePage.java138 - [[ChromeDriver: chrome on MAC (c3df41a6c15ebe2e1895cf605d247ab7)] -> xpath: //*[@id='password']]Is enabled and clicked
+20240217 14:21:32 INFO  [main] base.BasePage BasePage.java142 - password field Is displayed  in textarea
+20240217 14:21:32 INFO  [main] base.BasePage BasePage.java87 - Login Button IS WAITED FOR VISIBLITY
+20240217 14:21:33 INFO  [main] base.BasePage BasePage.java68 - Login ButtonIs enabled and clicked
+20240217 14:21:33 INFO  [main] base.BasePage BasePage.java234 - Element extracted text is = Please enter your password.
+20240217 14:21:33 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java77 - Please enter your password.  matched with Please enter your password.
+20240217 14:21:33 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java90 - ..............ended loginPage_EmptyPassword................
+20240217 14:21:33 INFO  [main] utility.SalesforceListenerUtility SalesforceListenerUtility.java36 - loginPage_EmptyPassword.......test execution sucess........
+20240217 14:21:33 INFO  [main] base.BaseTest BaseTest.java138 - browser is closed
+20240217 14:21:33 INFO  [main] base.BaseTest BaseTest.java56 - ******tearDownAfterTestMethod executed***********
+20240217 14:21:33 INFO  [main] base.BaseTest BaseTest.java46 - .........BeforeMethod  executed---------------
+20240217 14:21:33 INFO  [main] base.BaseTest BaseTest.java66 - Browser instance has started
+20240217 14:21:35 INFO  [main] base.BaseTest BaseTest.java147 - https://login.salesforce.com/ is entered
+20240217 14:21:35 INFO  [main] base.BaseTest BaseTest.java180 - Waiting until page loads within  expectedtime period
+20240217 14:21:35 INFO  [main] utility.SalesforceListenerUtility SalesforceListenerUtility.java27 - testForgotPasssword.......test execution started........
+20240217 14:21:35 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java205 - ..............stated testForgotPasssword..............
+20240217 14:21:35 INFO  [main] base.BasePage BasePage.java68 - Forgot ButtonIs enabled and clicked
+20240217 14:21:35 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java218 - Forgot Your Password | Salesforce  matched with Forgot Your Password | Salesforce
+20240217 14:21:35 INFO  [main] base.BasePage BasePage.java87 - User Name  IS WAITED FOR VISIBLITY
+20240217 14:21:35 INFO  [main] base.BasePage BasePage.java138 - [[ChromeDriver: chrome on MAC (e9370823c9b17f0bfd9a5dcde9fcf12d)] -> xpath: //input[@id='un']]Is enabled and clicked
+20240217 14:21:35 INFO  [main] base.BasePage BasePage.java142 - Username textboxIs displayed  in textarea
+20240217 14:21:36 INFO  [main] base.BasePage BasePage.java68 - Continue Is enabled and clicked
+20240217 14:21:36 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java238 - Check Your Email | Salesforce  matched with Check Your Email | Salesforce
+20240217 14:21:36 INFO  [main] base.BasePage BasePage.java234 - Element extracted text is = Check Your Email
+20240217 14:21:36 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java250 - Check Your Email  matched with Check Your Email
+20240217 14:21:36 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java260 - ..............ended testForgotPasssword..............
+20240217 14:21:36 INFO  [main] utility.SalesforceListenerUtility SalesforceListenerUtility.java36 - testForgotPasssword.......test execution sucess........
+20240217 14:21:36 INFO  [main] base.BaseTest BaseTest.java138 - browser is closed
+20240217 14:21:36 INFO  [main] base.BaseTest BaseTest.java56 - ******tearDownAfterTestMethod executed***********
+20240217 14:21:36 INFO  [main] base.BaseTest BaseTest.java46 - .........BeforeMethod  executed---------------
+20240217 14:21:36 INFO  [main] base.BaseTest BaseTest.java66 - Browser instance has started
+20240217 14:21:38 INFO  [main] base.BaseTest BaseTest.java147 - https://login.salesforce.com/ is entered
+20240217 14:21:38 INFO  [main] base.BaseTest BaseTest.java180 - Waiting until page loads within  expectedtime period
+20240217 14:21:38 INFO  [main] utility.SalesforceListenerUtility SalesforceListenerUtility.java27 - loginErrorMessage.......test execution started........
+20240217 14:21:38 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java266 - ..............stated loginErrorMessage..............
+20240217 14:21:38 INFO  [main] base.BasePage BasePage.java87 - UserName  IS WAITED FOR VISIBLITY
+20240217 14:21:38 INFO  [main] base.BasePage BasePage.java138 - [[ChromeDriver: chrome on MAC (88345466bfbdb595f84496b026cc0425)] -> xpath: //*[@id='username']]Is enabled and clicked
+20240217 14:21:38 INFO  [main] base.BasePage BasePage.java142 - Username textboxIs displayed  in textarea
+20240217 14:21:38 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java273 - User name entered successfully
+20240217 14:21:38 INFO  [main] base.BasePage BasePage.java138 - [[ChromeDriver: chrome on MAC (88345466bfbdb595f84496b026cc0425)] -> xpath: //*[@id='password']]Is enabled and clicked
+20240217 14:21:38 INFO  [main] base.BasePage BasePage.java142 - password field Is displayed  in textarea
+20240217 14:21:39 INFO  [main] base.BasePage BasePage.java87 - Login Button IS WAITED FOR VISIBLITY
+20240217 14:21:39 INFO  [main] base.BasePage BasePage.java68 - Login ButtonIs enabled and clicked
+20240217 14:21:39 INFO  [main] base.BasePage BasePage.java234 - Element extracted text is = Please check your username and password. If you still can't log in, contact your Salesforce administrator.
+20240217 14:21:39 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java284 - Please check your username and password. If you still can't log in, contact your Salesforce administrator.  matched with Please check your username and password. If you still can't log in, contact your Salesforce administrator.
+20240217 14:21:39 INFO  [main] utility.SalesforceListenerUtility SalesforceListenerUtility.java36 - loginErrorMessage.......test execution sucess........
+20240217 14:21:39 INFO  [main] base.BaseTest BaseTest.java138 - browser is closed
+20240217 14:21:39 INFO  [main] base.BaseTest BaseTest.java56 - ******tearDownAfterTestMethod executed***********
+20240217 14:21:39 INFO  [main] base.BaseTest BaseTest.java46 - .........BeforeMethod  executed---------------
+20240217 14:21:39 INFO  [main] base.BaseTest BaseTest.java66 - Browser instance has started
+20240217 14:21:42 INFO  [main] base.BaseTest BaseTest.java147 - https://login.salesforce.com/ is entered
+20240217 14:21:42 INFO  [main] base.BaseTest BaseTest.java180 - Waiting until page loads within  expectedtime period
+20240217 14:21:42 INFO  [main] utility.SalesforceListenerUtility SalesforceListenerUtility.java27 - login_Homepage.......test execution started........
+20240217 14:21:42 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java96 - ..............stated login_Homepage()...............
+20240217 14:21:42 INFO  [main] base.BasePage BasePage.java215 - Current URL is = https://login.salesforce.com/
+20240217 14:21:42 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java107 - https://login.salesforce.com/  matched with https://login.salesforce.com/
+20240217 14:21:42 INFO  [main] base.BasePage BasePage.java87 - UserName  IS WAITED FOR VISIBLITY
+20240217 14:21:42 INFO  [main] base.BasePage BasePage.java138 - [[ChromeDriver: chrome on MAC (1969d858123df3a8af0efc3555e43615)] -> xpath: //*[@id='username']]Is enabled and clicked
+20240217 14:21:42 INFO  [main] base.BasePage BasePage.java142 - Username textboxIs displayed  in textarea
+20240217 14:21:42 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java117 - User name entered successfully
+20240217 14:21:42 INFO  [main] base.BasePage BasePage.java138 - [[ChromeDriver: chrome on MAC (1969d858123df3a8af0efc3555e43615)] -> xpath: //*[@id='password']]Is enabled and clicked
+20240217 14:21:42 INFO  [main] base.BasePage BasePage.java142 - password field Is displayed  in textarea
+20240217 14:21:42 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java120 - Password entered successfully
+20240217 14:21:42 INFO  [main] base.BasePage BasePage.java87 - Login Button IS WAITED FOR VISIBLITY
+20240217 14:21:45 INFO  [main] base.BasePage BasePage.java68 - Login ButtonIs enabled and clicked
+20240217 14:21:47 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java132 - Home Page ~ Salesforce - Developer Edition  matched with Home Page ~ Salesforce - Developer Edition
+20240217 14:21:47 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java141 - ..............ended login_Homepage()...............
+20240217 14:21:47 INFO  [main] utility.SalesforceListenerUtility SalesforceListenerUtility.java36 - login_Homepage.......test execution sucess........
+20240217 14:21:47 INFO  [main] base.BaseTest BaseTest.java138 - browser is closed
+20240217 14:21:47 INFO  [main] base.BaseTest BaseTest.java56 - ******tearDownAfterTestMethod executed***********
+20240217 14:21:47 INFO  [main] base.BaseTest BaseTest.java46 - .........BeforeMethod  executed---------------
+20240217 14:21:47 INFO  [main] base.BaseTest BaseTest.java66 - Browser instance has started
+20240217 14:21:48 INFO  [main] base.BaseTest BaseTest.java147 - https://login.salesforce.com/ is entered
+20240217 14:21:48 INFO  [main] base.BaseTest BaseTest.java180 - Waiting until page loads within  expectedtime period
+20240217 14:21:48 INFO  [main] utility.SalesforceListenerUtility SalesforceListenerUtility.java27 - rememberUser_checkbox.......test execution started........
+20240217 14:21:48 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java147 - ..............stated  rememberUser_checkbox..............
+20240217 14:21:48 INFO  [main] base.BasePage BasePage.java87 - UserName  IS WAITED FOR VISIBLITY
+20240217 14:21:49 INFO  [main] base.BasePage BasePage.java138 - [[ChromeDriver: chrome on MAC (b84726562ec632f1c3d0c872a02e4aa2)] -> xpath: //*[@id='username']]Is enabled and clicked
+20240217 14:21:49 INFO  [main] base.BasePage BasePage.java142 - Username textboxIs displayed  in textarea
+20240217 14:21:49 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java154 - User name entered successfully
+20240217 14:21:49 INFO  [main] base.BasePage BasePage.java138 - [[ChromeDriver: chrome on MAC (b84726562ec632f1c3d0c872a02e4aa2)] -> xpath: //*[@id='password']]Is enabled and clicked
+20240217 14:21:49 INFO  [main] base.BasePage BasePage.java142 - password field Is displayed  in textarea
+20240217 14:21:49 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java157 - Password entered successfully
+20240217 14:21:49 INFO  [main] base.BasePage BasePage.java87 - Remember me checkbox IS WAITED FOR VISIBLITY
+20240217 14:21:50 INFO  [main] base.BasePage BasePage.java68 - Remember me Is enabled and clicked
+20240217 14:21:50 INFO  [main] base.BasePage BasePage.java87 - Login Button IS WAITED FOR VISIBLITY
+20240217 14:21:52 INFO  [main] base.BasePage BasePage.java68 - Login ButtonIs enabled and clicked
+20240217 14:21:53 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java172 - Home Page ~ Salesforce - Developer Edition  matched with Home Page ~ Salesforce - Developer Edition
+20240217 14:21:53 INFO  [main] base.BasePage BasePage.java87 - User account  IS WAITED FOR VISIBLITY
+20240217 14:21:56 INFO  [main] base.BasePage BasePage.java87 - Username Label  IS WAITED FOR VISIBLITY
+20240217 14:21:56 INFO  [main] base.BasePage BasePage.java234 - Element extracted text is = sweety123@yahoo.com
+20240217 14:21:56 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java189 - sweety123@yahoo.com  matched with sweety123@yahoo.com
+20240217 14:21:56 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java199 - .............ended rememberUser_checkbox..............
+20240217 14:21:56 INFO  [main] utility.SalesforceListenerUtility SalesforceListenerUtility.java36 - rememberUser_checkbox.......test execution sucess........
+20240217 14:21:56 INFO  [main] base.BaseTest BaseTest.java138 - browser is closed
+20240217 14:21:56 INFO  [main] base.BaseTest BaseTest.java56 - ******tearDownAfterTestMethod executed***********
+20240217 14:21:56 INFO  [main] utility.SalesforceListenerUtility SalesforceListenerUtility.java70 - .......<test> execution completed........
+20240217 14:45:53 INFO  [main] utility.SalesforceListenerUtility SalesforceListenerUtility.java62 - .......<test> execution started........
+20240217 14:45:53 INFO  [main] base.BaseTest BaseTest.java46 - .........BeforeMethod  executed---------------
+20240217 14:45:54 INFO  [main] base.BaseTest BaseTest.java66 - Browser instance has started
+20240217 14:45:56 INFO  [main] base.BaseTest BaseTest.java147 - https://login.salesforce.com/ is entered
+20240217 14:45:56 INFO  [main] base.BaseTest BaseTest.java180 - Waiting until page loads within  expectedtime period
+20240217 14:45:56 INFO  [main] utility.SalesforceListenerUtility SalesforceListenerUtility.java27 - loginPage_EmptyPassword.......test execution started........
+20240217 14:45:56 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java43 - ..............started loginPage_EmptyPassword...............
+20240217 14:45:56 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java54 - Login | Salesforce  matched with Login | Salesforce
+20240217 14:45:56 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java62 - Assertion passed: Actual title is equal to Expected title
+20240217 14:45:56 INFO  [main] base.BasePage BasePage.java87 - UserName  IS WAITED FOR VISIBLITY
+20240217 14:45:57 INFO  [main] base.BasePage BasePage.java138 - [[ChromeDriver: chrome on MAC (4669e6293cecb9d06b328fac0ac377dd)] -> xpath: //*[@id='username']]Is enabled and clicked
+20240217 14:45:57 INFO  [main] base.BasePage BasePage.java142 - Username textboxIs displayed  in textarea
+20240217 14:45:57 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java65 - User name entered
+20240217 14:45:57 INFO  [main] base.BasePage BasePage.java138 - [[ChromeDriver: chrome on MAC (4669e6293cecb9d06b328fac0ac377dd)] -> xpath: //*[@id='password']]Is enabled and clicked
+20240217 14:45:57 INFO  [main] base.BasePage BasePage.java142 - password field Is displayed  in textarea
+20240217 14:45:58 INFO  [main] base.BasePage BasePage.java87 - Login Button IS WAITED FOR VISIBLITY
+20240217 14:45:58 INFO  [main] base.BasePage BasePage.java68 - Login ButtonIs enabled and clicked
+20240217 14:45:58 INFO  [main] base.BasePage BasePage.java234 - Element extracted text is = Please enter your password.
+20240217 14:45:58 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java77 - Please enter your password.  matched with Please enter your password.
+20240217 14:45:58 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java90 - ..............ended loginPage_EmptyPassword................
+20240217 14:45:58 INFO  [main] utility.SalesforceListenerUtility SalesforceListenerUtility.java36 - loginPage_EmptyPassword.......test execution sucess........
+20240217 14:45:58 INFO  [main] base.BaseTest BaseTest.java138 - browser is closed
+20240217 14:45:58 INFO  [main] base.BaseTest BaseTest.java56 - ******tearDownAfterTestMethod executed***********
+20240217 14:45:58 INFO  [main] base.BaseTest BaseTest.java46 - .........BeforeMethod  executed---------------
+20240217 14:45:58 INFO  [main] base.BaseTest BaseTest.java66 - Browser instance has started
+20240217 14:46:00 INFO  [main] base.BaseTest BaseTest.java147 - https://login.salesforce.com/ is entered
+20240217 14:46:00 INFO  [main] base.BaseTest BaseTest.java180 - Waiting until page loads within  expectedtime period
+20240217 14:46:00 INFO  [main] utility.SalesforceListenerUtility SalesforceListenerUtility.java27 - testForgotPasssword.......test execution started........
+20240217 14:46:00 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java205 - ..............stated testForgotPasssword..............
+20240217 14:46:00 INFO  [main] base.BasePage BasePage.java68 - Forgot ButtonIs enabled and clicked
+20240217 14:46:00 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java218 - Forgot Your Password | Salesforce  matched with Forgot Your Password | Salesforce
+20240217 14:46:00 INFO  [main] base.BasePage BasePage.java87 - User Name  IS WAITED FOR VISIBLITY
+20240217 14:46:00 INFO  [main] base.BasePage BasePage.java138 - [[ChromeDriver: chrome on MAC (50ca4ca091095595be1d2f961ace77d1)] -> xpath: //input[@id='un']]Is enabled and clicked
+20240217 14:46:00 INFO  [main] base.BasePage BasePage.java142 - Username textboxIs displayed  in textarea
+20240217 14:46:01 INFO  [main] base.BasePage BasePage.java68 - Continue Is enabled and clicked
+20240217 14:46:01 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java238 - Check Your Email | Salesforce  matched with Check Your Email | Salesforce
+20240217 14:46:01 INFO  [main] base.BasePage BasePage.java234 - Element extracted text is = Check Your Email
+20240217 14:46:01 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java250 - Check Your Email  matched with Check Your Email
+20240217 14:46:01 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java260 - ..............ended testForgotPasssword..............
+20240217 14:46:01 INFO  [main] utility.SalesforceListenerUtility SalesforceListenerUtility.java36 - testForgotPasssword.......test execution sucess........
+20240217 14:46:01 INFO  [main] base.BaseTest BaseTest.java138 - browser is closed
+20240217 14:46:01 INFO  [main] base.BaseTest BaseTest.java56 - ******tearDownAfterTestMethod executed***********
+20240217 14:46:01 INFO  [main] base.BaseTest BaseTest.java46 - .........BeforeMethod  executed---------------
+20240217 14:46:01 INFO  [main] base.BaseTest BaseTest.java66 - Browser instance has started
+20240217 14:46:03 INFO  [main] base.BaseTest BaseTest.java147 - https://login.salesforce.com/ is entered
+20240217 14:46:03 INFO  [main] base.BaseTest BaseTest.java180 - Waiting until page loads within  expectedtime period
+20240217 14:46:03 INFO  [main] utility.SalesforceListenerUtility SalesforceListenerUtility.java27 - loginErrorMessage.......test execution started........
+20240217 14:46:03 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java266 - ..............stated loginErrorMessage..............
+20240217 14:46:03 INFO  [main] base.BasePage BasePage.java87 - UserName  IS WAITED FOR VISIBLITY
+20240217 14:46:03 INFO  [main] base.BasePage BasePage.java138 - [[ChromeDriver: chrome on MAC (5278e6ffd70bd7b0b53673eaf6dd7b3f)] -> xpath: //*[@id='username']]Is enabled and clicked
+20240217 14:46:03 INFO  [main] base.BasePage BasePage.java142 - Username textboxIs displayed  in textarea
+20240217 14:46:03 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java273 - User name entered successfully
+20240217 14:46:03 INFO  [main] base.BasePage BasePage.java138 - [[ChromeDriver: chrome on MAC (5278e6ffd70bd7b0b53673eaf6dd7b3f)] -> xpath: //*[@id='password']]Is enabled and clicked
+20240217 14:46:03 INFO  [main] base.BasePage BasePage.java142 - password field Is displayed  in textarea
+20240217 14:46:03 INFO  [main] base.BasePage BasePage.java87 - Login Button IS WAITED FOR VISIBLITY
+20240217 14:46:04 INFO  [main] base.BasePage BasePage.java68 - Login ButtonIs enabled and clicked
+20240217 14:46:04 INFO  [main] base.BasePage BasePage.java234 - Element extracted text is = Please check your username and password. If you still can't log in, contact your Salesforce administrator.
+20240217 14:46:04 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java284 - Please check your username and password. If you still can't log in, contact your Salesforce administrator.  matched with Please check your username and password. If you still can't log in, contact your Salesforce administrator.
+20240217 14:46:04 INFO  [main] utility.SalesforceListenerUtility SalesforceListenerUtility.java36 - loginErrorMessage.......test execution sucess........
+20240217 14:46:04 INFO  [main] base.BaseTest BaseTest.java138 - browser is closed
+20240217 14:46:04 INFO  [main] base.BaseTest BaseTest.java56 - ******tearDownAfterTestMethod executed***********
+20240217 14:46:04 INFO  [main] base.BaseTest BaseTest.java46 - .........BeforeMethod  executed---------------
+20240217 14:46:04 INFO  [main] base.BaseTest BaseTest.java66 - Browser instance has started
+20240217 14:46:06 INFO  [main] base.BaseTest BaseTest.java147 - https://login.salesforce.com/ is entered
+20240217 14:46:06 INFO  [main] base.BaseTest BaseTest.java180 - Waiting until page loads within  expectedtime period
+20240217 14:46:06 INFO  [main] utility.SalesforceListenerUtility SalesforceListenerUtility.java27 - login_Homepage.......test execution started........
+20240217 14:46:06 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java96 - ..............stated login_Homepage()...............
+20240217 14:46:06 INFO  [main] base.BasePage BasePage.java215 - Current URL is = https://login.salesforce.com/
+20240217 14:46:06 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java107 - https://login.salesforce.com/  matched with https://login.salesforce.com/
+20240217 14:46:06 INFO  [main] base.BasePage BasePage.java87 - UserName  IS WAITED FOR VISIBLITY
+20240217 14:46:06 INFO  [main] base.BasePage BasePage.java138 - [[ChromeDriver: chrome on MAC (86c9387b2f88c2f46587f230384c5f32)] -> xpath: //*[@id='username']]Is enabled and clicked
+20240217 14:46:06 INFO  [main] base.BasePage BasePage.java142 - Username textboxIs displayed  in textarea
+20240217 14:46:06 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java117 - User name entered successfully
+20240217 14:46:06 INFO  [main] base.BasePage BasePage.java138 - [[ChromeDriver: chrome on MAC (86c9387b2f88c2f46587f230384c5f32)] -> xpath: //*[@id='password']]Is enabled and clicked
+20240217 14:46:06 INFO  [main] base.BasePage BasePage.java142 - password field Is displayed  in textarea
+20240217 14:46:07 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java120 - Password entered successfully
+20240217 14:46:07 INFO  [main] base.BasePage BasePage.java87 - Login Button IS WAITED FOR VISIBLITY
+20240217 14:46:09 INFO  [main] base.BasePage BasePage.java68 - Login ButtonIs enabled and clicked
+20240217 14:46:10 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java132 - Home Page ~ Salesforce - Developer Edition  matched with Home Page ~ Salesforce - Developer Edition
+20240217 14:46:10 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java141 - ..............ended login_Homepage()...............
+20240217 14:46:10 INFO  [main] utility.SalesforceListenerUtility SalesforceListenerUtility.java36 - login_Homepage.......test execution sucess........
+20240217 14:46:11 INFO  [main] base.BaseTest BaseTest.java138 - browser is closed
+20240217 14:46:11 INFO  [main] base.BaseTest BaseTest.java56 - ******tearDownAfterTestMethod executed***********
+20240217 14:46:11 INFO  [main] base.BaseTest BaseTest.java46 - .........BeforeMethod  executed---------------
+20240217 14:46:11 INFO  [main] base.BaseTest BaseTest.java66 - Browser instance has started
+20240217 14:46:12 INFO  [main] base.BaseTest BaseTest.java147 - https://login.salesforce.com/ is entered
+20240217 14:46:12 INFO  [main] base.BaseTest BaseTest.java180 - Waiting until page loads within  expectedtime period
+20240217 14:46:12 INFO  [main] utility.SalesforceListenerUtility SalesforceListenerUtility.java27 - rememberUser_checkbox.......test execution started........
+20240217 14:46:12 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java147 - ..............stated  rememberUser_checkbox..............
+20240217 14:46:12 INFO  [main] base.BasePage BasePage.java87 - UserName  IS WAITED FOR VISIBLITY
+20240217 14:46:12 INFO  [main] base.BasePage BasePage.java138 - [[ChromeDriver: chrome on MAC (5ecd4ff9e6e6d9d939e53b7ec39b56da)] -> xpath: //*[@id='username']]Is enabled and clicked
+20240217 14:46:12 INFO  [main] base.BasePage BasePage.java142 - Username textboxIs displayed  in textarea
+20240217 14:46:12 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java154 - User name entered successfully
+20240217 14:46:13 INFO  [main] base.BasePage BasePage.java138 - [[ChromeDriver: chrome on MAC (5ecd4ff9e6e6d9d939e53b7ec39b56da)] -> xpath: //*[@id='password']]Is enabled and clicked
+20240217 14:46:13 INFO  [main] base.BasePage BasePage.java142 - password field Is displayed  in textarea
+20240217 14:46:13 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java157 - Password entered successfully
+20240217 14:46:13 INFO  [main] base.BasePage BasePage.java87 - Remember me checkbox IS WAITED FOR VISIBLITY
+20240217 14:46:13 INFO  [main] base.BasePage BasePage.java68 - Remember me Is enabled and clicked
+20240217 14:46:13 INFO  [main] base.BasePage BasePage.java87 - Login Button IS WAITED FOR VISIBLITY
+20240217 14:46:15 INFO  [main] base.BasePage BasePage.java68 - Login ButtonIs enabled and clicked
+20240217 14:46:17 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java172 - Home Page ~ Salesforce - Developer Edition  matched with Home Page ~ Salesforce - Developer Edition
+20240217 14:46:17 INFO  [main] base.BasePage BasePage.java87 - User account  IS WAITED FOR VISIBLITY
+20240217 14:46:20 INFO  [main] base.BasePage BasePage.java87 - Username Label  IS WAITED FOR VISIBLITY
+20240217 14:46:20 INFO  [main] base.BasePage BasePage.java234 - Element extracted text is = sweety123@yahoo.com
+20240217 14:46:20 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java189 - sweety123@yahoo.com  matched with sweety123@yahoo.com
+20240217 14:46:20 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java199 - .............ended rememberUser_checkbox..............
+20240217 14:46:20 INFO  [main] utility.SalesforceListenerUtility SalesforceListenerUtility.java36 - rememberUser_checkbox.......test execution sucess........
+20240217 14:46:20 INFO  [main] base.BaseTest BaseTest.java138 - browser is closed
+20240217 14:46:20 INFO  [main] base.BaseTest BaseTest.java56 - ******tearDownAfterTestMethod executed***********
+20240217 14:46:20 INFO  [main] utility.SalesforceListenerUtility SalesforceListenerUtility.java70 - .......<test> execution completed........
+20240219 17:04:10 INFO  [main] utility.SalesforceListenerUtility SalesforceListenerUtility.java62 - .......<test> execution started........
+20240219 17:04:11 INFO  [main] base.BaseTest BaseTest.java46 - .........BeforeMethod  executed---------------
+20240219 17:04:11 INFO  [main] base.BaseTest BaseTest.java66 - Browser instance has started
+20240219 17:04:16 INFO  [main] base.BaseTest BaseTest.java147 - https://login.salesforce.com/ is entered
+20240219 17:04:16 INFO  [main] base.BaseTest BaseTest.java180 - Waiting until page loads within  expectedtime period
+20240219 17:04:16 INFO  [main] utility.SalesforceListenerUtility SalesforceListenerUtility.java27 - loginPage_EmptyPassword.......test execution started........
+20240219 17:04:16 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java43 - ..............started loginPage_EmptyPassword...............
+20240219 17:04:16 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java54 - Login | Salesforce  matched with Login | Salesforce
+20240219 17:04:16 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java62 - Assertion passed: Actual title is equal to Expected title
+20240219 17:04:16 INFO  [main] base.BasePage BasePage.java87 - UserName  IS WAITED FOR VISIBLITY
+20240219 17:04:17 INFO  [main] base.BasePage BasePage.java138 - [[ChromeDriver: chrome on MAC (ef57126ce6c94578b27c847ddb70bdf5)] -> xpath: //*[@id='username']]Is enabled and clicked
+20240219 17:04:18 INFO  [main] base.BasePage BasePage.java142 - Username textboxIs displayed  in textarea
+20240219 17:04:18 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java65 - User name entered
+20240219 17:04:18 INFO  [main] base.BasePage BasePage.java138 - [[ChromeDriver: chrome on MAC (ef57126ce6c94578b27c847ddb70bdf5)] -> xpath: //*[@id='password']]Is enabled and clicked
+20240219 17:04:18 INFO  [main] base.BasePage BasePage.java142 - password field Is displayed  in textarea
+20240219 17:04:18 INFO  [main] base.BasePage BasePage.java87 - Login Button IS WAITED FOR VISIBLITY
+20240219 17:04:18 INFO  [main] base.BasePage BasePage.java68 - Login ButtonIs enabled and clicked
+20240219 17:04:18 INFO  [main] base.BasePage BasePage.java234 - Element extracted text is = Please enter your password.
+20240219 17:04:18 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java77 - Please enter your password.  matched with Please enter your password.
+20240219 17:04:18 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java90 - ..............ended loginPage_EmptyPassword................
+20240219 17:04:18 INFO  [main] utility.SalesforceListenerUtility SalesforceListenerUtility.java36 - loginPage_EmptyPassword.......test execution sucess........
+20240219 17:04:18 INFO  [main] base.BaseTest BaseTest.java138 - browser is closed
+20240219 17:04:18 INFO  [main] base.BaseTest BaseTest.java56 - ******tearDownAfterTestMethod executed***********
+20240219 17:04:19 INFO  [main] base.BaseTest BaseTest.java46 - .........BeforeMethod  executed---------------
+20240219 17:04:19 INFO  [main] base.BaseTest BaseTest.java66 - Browser instance has started
+20240219 17:04:20 INFO  [main] base.BaseTest BaseTest.java147 - https://login.salesforce.com/ is entered
+20240219 17:04:20 INFO  [main] base.BaseTest BaseTest.java180 - Waiting until page loads within  expectedtime period
+20240219 17:04:20 INFO  [main] utility.SalesforceListenerUtility SalesforceListenerUtility.java27 - testForgotPasssword.......test execution started........
+20240219 17:04:20 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java205 - ..............stated testForgotPasssword..............
+20240219 17:04:21 INFO  [main] base.BasePage BasePage.java68 - Forgot ButtonIs enabled and clicked
+20240219 17:04:21 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java218 - Forgot Your Password | Salesforce  matched with Forgot Your Password | Salesforce
+20240219 17:04:21 INFO  [main] base.BasePage BasePage.java87 - User Name  IS WAITED FOR VISIBLITY
+20240219 17:04:21 INFO  [main] base.BasePage BasePage.java138 - [[ChromeDriver: chrome on MAC (927fb458c7059d640895c76cbb001dc4)] -> xpath: //input[@id='un']]Is enabled and clicked
+20240219 17:04:21 INFO  [main] base.BasePage BasePage.java142 - Username textboxIs displayed  in textarea
+20240219 17:04:22 INFO  [main] base.BasePage BasePage.java68 - Continue Is enabled and clicked
+20240219 17:04:22 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java238 - Check Your Email | Salesforce  matched with Check Your Email | Salesforce
+20240219 17:04:22 INFO  [main] base.BasePage BasePage.java234 - Element extracted text is = Check Your Email
+20240219 17:04:22 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java250 - Check Your Email  matched with Check Your Email
+20240219 17:04:22 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java260 - ..............ended testForgotPasssword..............
+20240219 17:04:22 INFO  [main] utility.SalesforceListenerUtility SalesforceListenerUtility.java36 - testForgotPasssword.......test execution sucess........
+20240219 17:04:22 INFO  [main] base.BaseTest BaseTest.java138 - browser is closed
+20240219 17:04:22 INFO  [main] base.BaseTest BaseTest.java56 - ******tearDownAfterTestMethod executed***********
+20240219 17:04:22 INFO  [main] base.BaseTest BaseTest.java46 - .........BeforeMethod  executed---------------
+20240219 17:04:22 INFO  [main] base.BaseTest BaseTest.java66 - Browser instance has started
+20240219 17:04:24 INFO  [main] base.BaseTest BaseTest.java147 - https://login.salesforce.com/ is entered
+20240219 17:04:24 INFO  [main] base.BaseTest BaseTest.java180 - Waiting until page loads within  expectedtime period
+20240219 17:04:24 INFO  [main] utility.SalesforceListenerUtility SalesforceListenerUtility.java27 - loginErrorMessage.......test execution started........
+20240219 17:04:24 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java266 - ..............stated loginErrorMessage..............
+20240219 17:04:24 INFO  [main] base.BasePage BasePage.java87 - UserName  IS WAITED FOR VISIBLITY
+20240219 17:04:24 INFO  [main] base.BasePage BasePage.java138 - [[ChromeDriver: chrome on MAC (6dfab8aadef288e07e561662d4114a47)] -> xpath: //*[@id='username']]Is enabled and clicked
+20240219 17:04:24 INFO  [main] base.BasePage BasePage.java142 - Username textboxIs displayed  in textarea
+20240219 17:04:24 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java273 - User name entered successfully
+20240219 17:04:24 INFO  [main] base.BasePage BasePage.java138 - [[ChromeDriver: chrome on MAC (6dfab8aadef288e07e561662d4114a47)] -> xpath: //*[@id='password']]Is enabled and clicked
+20240219 17:04:24 INFO  [main] base.BasePage BasePage.java142 - password field Is displayed  in textarea
+20240219 17:04:25 INFO  [main] base.BasePage BasePage.java87 - Login Button IS WAITED FOR VISIBLITY
+20240219 17:04:25 INFO  [main] base.BasePage BasePage.java68 - Login ButtonIs enabled and clicked
+20240219 17:04:25 INFO  [main] base.BasePage BasePage.java234 - Element extracted text is = Please check your username and password. If you still can't log in, contact your Salesforce administrator.
+20240219 17:04:25 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java284 - Please check your username and password. If you still can't log in, contact your Salesforce administrator.  matched with Please check your username and password. If you still can't log in, contact your Salesforce administrator.
+20240219 17:04:25 INFO  [main] utility.SalesforceListenerUtility SalesforceListenerUtility.java36 - loginErrorMessage.......test execution sucess........
+20240219 17:04:25 INFO  [main] base.BaseTest BaseTest.java138 - browser is closed
+20240219 17:04:25 INFO  [main] base.BaseTest BaseTest.java56 - ******tearDownAfterTestMethod executed***********
+20240219 17:04:25 INFO  [main] base.BaseTest BaseTest.java46 - .........BeforeMethod  executed---------------
+20240219 17:04:25 INFO  [main] base.BaseTest BaseTest.java66 - Browser instance has started
+20240219 17:04:27 INFO  [main] base.BaseTest BaseTest.java147 - https://login.salesforce.com/ is entered
+20240219 17:04:27 INFO  [main] base.BaseTest BaseTest.java180 - Waiting until page loads within  expectedtime period
+20240219 17:04:27 INFO  [main] utility.SalesforceListenerUtility SalesforceListenerUtility.java27 - login_Homepage.......test execution started........
+20240219 17:04:27 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java96 - ..............stated login_Homepage()...............
+20240219 17:04:27 INFO  [main] base.BasePage BasePage.java215 - Current URL is = https://login.salesforce.com/
+20240219 17:04:27 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java107 - https://login.salesforce.com/  matched with https://login.salesforce.com/
+20240219 17:04:27 INFO  [main] base.BasePage BasePage.java87 - UserName  IS WAITED FOR VISIBLITY
+20240219 17:04:27 INFO  [main] base.BasePage BasePage.java138 - [[ChromeDriver: chrome on MAC (53e00966a4ad9ca1649aa8a15d92408f)] -> xpath: //*[@id='username']]Is enabled and clicked
+20240219 17:04:27 INFO  [main] base.BasePage BasePage.java142 - Username textboxIs displayed  in textarea
+20240219 17:04:27 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java117 - User name entered successfully
+20240219 17:04:28 INFO  [main] base.BasePage BasePage.java138 - [[ChromeDriver: chrome on MAC (53e00966a4ad9ca1649aa8a15d92408f)] -> xpath: //*[@id='password']]Is enabled and clicked
+20240219 17:04:28 INFO  [main] base.BasePage BasePage.java142 - password field Is displayed  in textarea
+20240219 17:04:28 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java120 - Password entered successfully
+20240219 17:04:28 INFO  [main] base.BasePage BasePage.java87 - Login Button IS WAITED FOR VISIBLITY
+20240219 17:04:31 INFO  [main] base.BasePage BasePage.java68 - Login ButtonIs enabled and clicked
+20240219 17:04:33 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java132 - Home Page ~ Salesforce - Developer Edition  matched with Home Page ~ Salesforce - Developer Edition
+20240219 17:04:33 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java141 - ..............ended login_Homepage()...............
+20240219 17:04:33 INFO  [main] utility.SalesforceListenerUtility SalesforceListenerUtility.java36 - login_Homepage.......test execution sucess........
+20240219 17:04:33 INFO  [main] base.BaseTest BaseTest.java138 - browser is closed
+20240219 17:04:33 INFO  [main] base.BaseTest BaseTest.java56 - ******tearDownAfterTestMethod executed***********
+20240219 17:04:33 INFO  [main] base.BaseTest BaseTest.java46 - .........BeforeMethod  executed---------------
+20240219 17:04:33 INFO  [main] base.BaseTest BaseTest.java66 - Browser instance has started
+20240219 17:04:35 INFO  [main] base.BaseTest BaseTest.java147 - https://login.salesforce.com/ is entered
+20240219 17:04:35 INFO  [main] base.BaseTest BaseTest.java180 - Waiting until page loads within  expectedtime period
+20240219 17:04:35 INFO  [main] utility.SalesforceListenerUtility SalesforceListenerUtility.java27 - rememberUser_checkbox.......test execution started........
+20240219 17:04:35 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java147 - ..............stated  rememberUser_checkbox..............
+20240219 17:04:35 INFO  [main] base.BasePage BasePage.java87 - UserName  IS WAITED FOR VISIBLITY
+20240219 17:04:35 INFO  [main] base.BasePage BasePage.java138 - [[ChromeDriver: chrome on MAC (28f07fe57c77ea5c7d834533be997b54)] -> xpath: //*[@id='username']]Is enabled and clicked
+20240219 17:04:35 INFO  [main] base.BasePage BasePage.java142 - Username textboxIs displayed  in textarea
+20240219 17:04:35 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java154 - User name entered successfully
+20240219 17:04:35 INFO  [main] base.BasePage BasePage.java138 - [[ChromeDriver: chrome on MAC (28f07fe57c77ea5c7d834533be997b54)] -> xpath: //*[@id='password']]Is enabled and clicked
+20240219 17:04:35 INFO  [main] base.BasePage BasePage.java142 - password field Is displayed  in textarea
+20240219 17:04:35 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java157 - Password entered successfully
+20240219 17:04:35 INFO  [main] base.BasePage BasePage.java87 - Remember me checkbox IS WAITED FOR VISIBLITY
+20240219 17:04:35 INFO  [main] base.BasePage BasePage.java68 - Remember me Is enabled and clicked
+20240219 17:04:36 INFO  [main] base.BasePage BasePage.java87 - Login Button IS WAITED FOR VISIBLITY
+20240219 17:04:38 INFO  [main] base.BasePage BasePage.java68 - Login ButtonIs enabled and clicked
+20240219 17:04:40 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java172 - Home Page ~ Salesforce - Developer Edition  matched with Home Page ~ Salesforce - Developer Edition
+20240219 17:04:40 INFO  [main] base.BasePage BasePage.java87 - User account  IS WAITED FOR VISIBLITY
+20240219 17:04:42 INFO  [main] base.BasePage BasePage.java87 - Username Label  IS WAITED FOR VISIBLITY
+20240219 17:04:42 INFO  [main] base.BasePage BasePage.java234 - Element extracted text is = sweety123@yahoo.com
+20240219 17:04:42 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java189 - sweety123@yahoo.com  matched with sweety123@yahoo.com
+20240219 17:04:42 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java199 - .............ended rememberUser_checkbox..............
+20240219 17:04:42 INFO  [main] utility.SalesforceListenerUtility SalesforceListenerUtility.java36 - rememberUser_checkbox.......test execution sucess........
+20240219 17:04:42 INFO  [main] base.BaseTest BaseTest.java138 - browser is closed
+20240219 17:04:42 INFO  [main] base.BaseTest BaseTest.java56 - ******tearDownAfterTestMethod executed***********
+20240219 17:04:42 INFO  [main] utility.SalesforceListenerUtility SalesforceListenerUtility.java70 - .......<test> execution completed........
+20240221 00:08:43 INFO  [main] utility.SalesforceListenerUtility SalesforceListenerUtility.java77 - .......<test> execution started........
+20240221 00:08:43 INFO  [main] base.BaseTest BaseTest.java46 - .........BeforeMethod  executed---------------
+20240221 00:08:44 INFO  [main] base.BaseTest BaseTest.java66 - Browser instance has started
+20240221 00:08:46 INFO  [main] base.BaseTest BaseTest.java147 - https://login.salesforce.com/ is entered
+20240221 00:08:46 INFO  [main] base.BaseTest BaseTest.java180 - Waiting until page loads within  expectedtime period
+20240221 00:08:46 INFO  [main] utility.SalesforceListenerUtility SalesforceListenerUtility.java40 - loginPage_EmptyPassword.......test execution started........
+20240221 00:08:46 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java43 - ..............started loginPage_EmptyPassword...............
+20240221 00:08:46 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java54 - Login | Salesforce  matched with Login | Salesforce
+20240221 00:08:46 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java62 - Assertion passed: Actual title is equal to Expected title
+20240221 00:08:47 INFO  [main] base.BasePage BasePage.java87 - UserName  IS WAITED FOR VISIBLITY
+20240221 00:08:47 INFO  [main] base.BasePage BasePage.java138 - [[ChromeDriver: chrome on MAC (1c36e291328f418606443cccd3ca60a4)] -> xpath: //*[@id='username']]Is enabled and clicked
+20240221 00:08:47 INFO  [main] base.BasePage BasePage.java142 - Username textboxIs displayed  in textarea
+20240221 00:08:47 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java65 - User name entered
+20240221 00:08:48 INFO  [main] base.BasePage BasePage.java138 - [[ChromeDriver: chrome on MAC (1c36e291328f418606443cccd3ca60a4)] -> xpath: //*[@id='password']]Is enabled and clicked
+20240221 00:08:48 INFO  [main] base.BasePage BasePage.java142 - password field Is displayed  in textarea
+20240221 00:08:48 INFO  [main] base.BasePage BasePage.java87 - Login Button IS WAITED FOR VISIBLITY
+20240221 00:08:48 INFO  [main] base.BasePage BasePage.java68 - Login ButtonIs enabled and clicked
+20240221 00:08:48 INFO  [main] base.BasePage BasePage.java234 - Element extracted text is = Please enter your password.
+20240221 00:08:48 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java77 - Please enter your password.  matched with Please enter your password.
+20240221 00:08:48 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java88 - All assertions Passed
+20240221 00:08:48 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java91 - ..............ended loginPage_EmptyPassword................
+20240221 00:08:48 INFO  [main] utility.SalesforceListenerUtility SalesforceListenerUtility.java50 - loginPage_EmptyPassword.......test execution sucess........
+20240221 00:08:49 INFO  [main] base.BaseTest BaseTest.java138 - browser is closed
+20240221 00:08:49 INFO  [main] base.BaseTest BaseTest.java56 - ******tearDownAfterTestMethod executed***********
+20240221 00:08:49 INFO  [main] base.BaseTest BaseTest.java46 - .........BeforeMethod  executed---------------
+20240221 00:08:49 INFO  [main] base.BaseTest BaseTest.java66 - Browser instance has started
+20240221 00:08:51 INFO  [main] base.BaseTest BaseTest.java147 - https://login.salesforce.com/ is entered
+20240221 00:08:51 INFO  [main] base.BaseTest BaseTest.java180 - Waiting until page loads within  expectedtime period
+20240221 00:08:51 INFO  [main] utility.SalesforceListenerUtility SalesforceListenerUtility.java40 - testForgotPasssword.......test execution started........
+20240221 00:08:51 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java208 - ..............stated testForgotPasssword..............
+20240221 00:08:53 INFO  [main] base.BasePage BasePage.java68 - Forgot ButtonIs enabled and clicked
+20240221 00:08:53 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java221 - Forgot Your Password | Salesforce  matched with Forgot Your Password | Salesforce
+20240221 00:08:53 INFO  [main] base.BasePage BasePage.java87 - User Name  IS WAITED FOR VISIBLITY
+20240221 00:08:53 INFO  [main] base.BasePage BasePage.java138 - [[ChromeDriver: chrome on MAC (f77a5151e15c5ea3b1c3267648abfc2a)] -> xpath: //input[@id='un']]Is enabled and clicked
+20240221 00:08:53 INFO  [main] base.BasePage BasePage.java142 - Username textboxIs displayed  in textarea
+20240221 00:08:55 INFO  [main] base.BasePage BasePage.java68 - Continue Is enabled and clicked
+20240221 00:08:55 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java241 - Check Your Email | Salesforce  matched with Check Your Email | Salesforce
+20240221 00:08:55 INFO  [main] base.BasePage BasePage.java234 - Element extracted text is = Check Your Email
+20240221 00:08:55 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java253 - Check Your Email  matched with Check Your Email
+20240221 00:08:55 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java261 - All assertions Passed
+20240221 00:08:55 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java264 - ..............ended testForgotPasssword..............
+20240221 00:08:55 INFO  [main] utility.SalesforceListenerUtility SalesforceListenerUtility.java50 - testForgotPasssword.......test execution sucess........
+20240221 00:08:55 INFO  [main] base.BaseTest BaseTest.java138 - browser is closed
+20240221 00:08:55 INFO  [main] base.BaseTest BaseTest.java56 - ******tearDownAfterTestMethod executed***********
+20240221 00:08:55 INFO  [main] base.BaseTest BaseTest.java46 - .........BeforeMethod  executed---------------
+20240221 00:08:55 INFO  [main] base.BaseTest BaseTest.java66 - Browser instance has started
+20240221 00:08:57 INFO  [main] base.BaseTest BaseTest.java147 - https://login.salesforce.com/ is entered
+20240221 00:08:57 INFO  [main] base.BaseTest BaseTest.java180 - Waiting until page loads within  expectedtime period
+20240221 00:08:57 INFO  [main] utility.SalesforceListenerUtility SalesforceListenerUtility.java40 - loginErrorMessage.......test execution started........
+20240221 00:08:57 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java270 - ..............stated loginErrorMessage..............
+20240221 00:08:57 INFO  [main] base.BasePage BasePage.java87 - UserName  IS WAITED FOR VISIBLITY
+20240221 00:08:57 INFO  [main] base.BasePage BasePage.java138 - [[ChromeDriver: chrome on MAC (f708dcc0c262894fb8b2f04d17b06401)] -> xpath: //*[@id='username']]Is enabled and clicked
+20240221 00:08:58 INFO  [main] base.BasePage BasePage.java142 - Username textboxIs displayed  in textarea
+20240221 00:08:58 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java277 - User name entered successfully
+20240221 00:08:58 INFO  [main] base.BasePage BasePage.java138 - [[ChromeDriver: chrome on MAC (f708dcc0c262894fb8b2f04d17b06401)] -> xpath: //*[@id='password']]Is enabled and clicked
+20240221 00:08:58 INFO  [main] base.BasePage BasePage.java142 - password field Is displayed  in textarea
+20240221 00:08:58 INFO  [main] base.BasePage BasePage.java87 - Login Button IS WAITED FOR VISIBLITY
+20240221 00:08:59 INFO  [main] base.BasePage BasePage.java68 - Login ButtonIs enabled and clicked
+20240221 00:08:59 INFO  [main] base.BasePage BasePage.java234 - Element extracted text is = Please check your username and password. If you still can't log in, contact your Salesforce administrator.
+20240221 00:08:59 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java288 - Please check your username and password. If you still can't log in, contact your Salesforce administrator.  matched with Please check your username and password. If you still can't log in, contact your Salesforce administrator.
+20240221 00:08:59 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java295 - All assertions Passed
+20240221 00:08:59 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java297 - ..............ended loginErrorMessage..............
+20240221 00:08:59 INFO  [main] utility.SalesforceListenerUtility SalesforceListenerUtility.java50 - loginErrorMessage.......test execution sucess........
+20240221 00:08:59 INFO  [main] base.BaseTest BaseTest.java138 - browser is closed
+20240221 00:08:59 INFO  [main] base.BaseTest BaseTest.java56 - ******tearDownAfterTestMethod executed***********
+20240221 00:08:59 INFO  [main] base.BaseTest BaseTest.java46 - .........BeforeMethod  executed---------------
+20240221 00:08:59 INFO  [main] base.BaseTest BaseTest.java66 - Browser instance has started
+20240221 00:09:01 INFO  [main] base.BaseTest BaseTest.java147 - https://login.salesforce.com/ is entered
+20240221 00:09:01 INFO  [main] base.BaseTest BaseTest.java180 - Waiting until page loads within  expectedtime period
+20240221 00:09:01 INFO  [main] utility.SalesforceListenerUtility SalesforceListenerUtility.java40 - login_Homepage.......test execution started........
+20240221 00:09:01 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java97 - ..............stated login_Homepage()...............
+20240221 00:09:01 INFO  [main] base.BasePage BasePage.java215 - Current URL is = https://login.salesforce.com/
+20240221 00:09:01 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java108 - https://login.salesforce.com/  matched with https://login.salesforce.com/
+20240221 00:09:01 INFO  [main] base.BasePage BasePage.java87 - UserName  IS WAITED FOR VISIBLITY
+20240221 00:09:01 INFO  [main] base.BasePage BasePage.java138 - [[ChromeDriver: chrome on MAC (5bfd00f03a28f774edc0b3a3a9a2e3b4)] -> xpath: //*[@id='username']]Is enabled and clicked
+20240221 00:09:02 INFO  [main] base.BasePage BasePage.java142 - Username textboxIs displayed  in textarea
+20240221 00:09:02 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java118 - User name entered successfully
+20240221 00:09:02 INFO  [main] base.BasePage BasePage.java138 - [[ChromeDriver: chrome on MAC (5bfd00f03a28f774edc0b3a3a9a2e3b4)] -> xpath: //*[@id='password']]Is enabled and clicked
+20240221 00:09:02 INFO  [main] base.BasePage BasePage.java142 - password field Is displayed  in textarea
+20240221 00:09:02 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java121 - Password entered successfully
+20240221 00:09:03 INFO  [main] base.BasePage BasePage.java87 - Login Button IS WAITED FOR VISIBLITY
+20240221 00:09:05 INFO  [main] base.BasePage BasePage.java68 - Login ButtonIs enabled and clicked
+20240221 00:09:07 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java133 - Home Page ~ Salesforce - Developer Edition  matched with Home Page ~ Salesforce - Developer Edition
+20240221 00:09:07 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java141 - All assertions Passed
+20240221 00:09:07 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java143 - ..............ended login_Homepage()...............
+20240221 00:09:07 INFO  [main] utility.SalesforceListenerUtility SalesforceListenerUtility.java50 - login_Homepage.......test execution sucess........
+20240221 00:09:07 INFO  [main] base.BaseTest BaseTest.java138 - browser is closed
+20240221 00:09:07 INFO  [main] base.BaseTest BaseTest.java56 - ******tearDownAfterTestMethod executed***********
+20240221 00:09:07 INFO  [main] base.BaseTest BaseTest.java46 - .........BeforeMethod  executed---------------
+20240221 00:09:07 INFO  [main] base.BaseTest BaseTest.java66 - Browser instance has started
+20240221 00:09:09 INFO  [main] base.BaseTest BaseTest.java147 - https://login.salesforce.com/ is entered
+20240221 00:09:09 INFO  [main] base.BaseTest BaseTest.java180 - Waiting until page loads within  expectedtime period
+20240221 00:09:09 INFO  [main] utility.SalesforceListenerUtility SalesforceListenerUtility.java40 - rememberUser_checkbox.......test execution started........
+20240221 00:09:09 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java149 - ..............stated  rememberUser_checkbox..............
+20240221 00:09:09 INFO  [main] base.BasePage BasePage.java87 - UserName  IS WAITED FOR VISIBLITY
+20240221 00:09:09 INFO  [main] base.BasePage BasePage.java138 - [[ChromeDriver: chrome on MAC (3f62253716c67d5fed73066b8a3b0ca4)] -> xpath: //*[@id='username']]Is enabled and clicked
+20240221 00:09:10 INFO  [main] base.BasePage BasePage.java142 - Username textboxIs displayed  in textarea
+20240221 00:09:10 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java156 - User name entered successfully
+20240221 00:09:10 INFO  [main] base.BasePage BasePage.java138 - [[ChromeDriver: chrome on MAC (3f62253716c67d5fed73066b8a3b0ca4)] -> xpath: //*[@id='password']]Is enabled and clicked
+20240221 00:09:10 INFO  [main] base.BasePage BasePage.java142 - password field Is displayed  in textarea
+20240221 00:09:10 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java159 - Password entered successfully
+20240221 00:09:10 INFO  [main] base.BasePage BasePage.java87 - Remember me checkbox IS WAITED FOR VISIBLITY
+20240221 00:09:10 INFO  [main] base.BasePage BasePage.java68 - Remember me Is enabled and clicked
+20240221 00:09:10 INFO  [main] base.BasePage BasePage.java87 - Login Button IS WAITED FOR VISIBLITY
+20240221 00:09:13 INFO  [main] base.BasePage BasePage.java68 - Login ButtonIs enabled and clicked
+20240221 00:09:15 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java174 - Home Page ~ Salesforce - Developer Edition  matched with Home Page ~ Salesforce - Developer Edition
+20240221 00:09:15 INFO  [main] base.BasePage BasePage.java87 - User account  IS WAITED FOR VISIBLITY
+20240221 00:09:17 INFO  [main] base.BasePage BasePage.java87 - Username Label  IS WAITED FOR VISIBLITY
+20240221 00:09:17 INFO  [main] base.BasePage BasePage.java234 - Element extracted text is = sweety123@yahoo.com
+20240221 00:09:17 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java191 - sweety123@yahoo.com  matched with sweety123@yahoo.com
+20240221 00:09:17 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java199 - All assertions Passed
+20240221 00:09:17 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java202 - .............ended rememberUser_checkbox..............
+20240221 00:09:17 INFO  [main] utility.SalesforceListenerUtility SalesforceListenerUtility.java50 - rememberUser_checkbox.......test execution sucess........
+20240221 00:09:17 INFO  [main] base.BaseTest BaseTest.java138 - browser is closed
+20240221 00:09:17 INFO  [main] base.BaseTest BaseTest.java56 - ******tearDownAfterTestMethod executed***********
+20240221 00:09:17 INFO  [main] utility.SalesforceListenerUtility SalesforceListenerUtility.java85 - .......<test> execution completed........
+20240221 00:18:29 INFO  [main] utility.SalesforceListenerUtility SalesforceListenerUtility.java65 - .......<test> execution started........
+20240221 00:18:29 INFO  [main] base.BaseTest BaseTest.java46 - .........BeforeMethod  executed---------------
+20240221 00:18:30 INFO  [main] base.BaseTest BaseTest.java66 - Browser instance has started
+20240221 00:18:33 INFO  [main] base.BaseTest BaseTest.java147 - https://login.salesforce.com/ is entered
+20240221 00:18:33 INFO  [main] base.BaseTest BaseTest.java180 - Waiting until page loads within  expectedtime period
+20240221 00:18:33 INFO  [main] utility.SalesforceListenerUtility SalesforceListenerUtility.java28 - loginPage_EmptyPassword.......test execution started........
+20240221 00:18:33 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java43 - ..............started loginPage_EmptyPassword...............
+20240221 00:18:33 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java54 - Login | Salesforce  matched with Login | Salesforce
+20240221 00:18:33 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java62 - Assertion passed: Actual title is equal to Expected title
+20240221 00:18:33 INFO  [main] base.BasePage BasePage.java87 - UserName  IS WAITED FOR VISIBLITY
+20240221 00:18:33 INFO  [main] base.BasePage BasePage.java138 - [[ChromeDriver: chrome on MAC (7a80c15e32977529f94b4b1649f6e35f)] -> xpath: //*[@id='username']]Is enabled and clicked
+20240221 00:18:34 INFO  [main] base.BasePage BasePage.java142 - Username textboxIs displayed  in textarea
+20240221 00:18:34 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java65 - User name entered
+20240221 00:18:34 INFO  [main] base.BasePage BasePage.java138 - [[ChromeDriver: chrome on MAC (7a80c15e32977529f94b4b1649f6e35f)] -> xpath: //*[@id='password']]Is enabled and clicked
+20240221 00:18:34 INFO  [main] base.BasePage BasePage.java142 - password field Is displayed  in textarea
+20240221 00:18:34 INFO  [main] base.BasePage BasePage.java87 - Login Button IS WAITED FOR VISIBLITY
+20240221 00:18:34 INFO  [main] base.BasePage BasePage.java68 - Login ButtonIs enabled and clicked
+20240221 00:18:34 INFO  [main] base.BasePage BasePage.java234 - Element extracted text is = Please enter your password.
+20240221 00:18:34 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java77 - Please enter your password.  matched with Please enter your password.
+20240221 00:18:34 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java88 - All assertions Passed
+20240221 00:18:34 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java91 - ..............ended loginPage_EmptyPassword................
+20240221 00:18:34 INFO  [main] utility.SalesforceListenerUtility SalesforceListenerUtility.java38 - loginPage_EmptyPassword.......test execution sucess........
+20240221 00:18:34 INFO  [main] base.BaseTest BaseTest.java138 - browser is closed
+20240221 00:18:34 INFO  [main] base.BaseTest BaseTest.java56 - ******tearDownAfterTestMethod executed***********
+20240221 00:18:34 INFO  [main] base.BaseTest BaseTest.java46 - .........BeforeMethod  executed---------------
+20240221 00:18:35 INFO  [main] base.BaseTest BaseTest.java66 - Browser instance has started
+20240221 00:18:36 INFO  [main] base.BaseTest BaseTest.java147 - https://login.salesforce.com/ is entered
+20240221 00:18:36 INFO  [main] base.BaseTest BaseTest.java180 - Waiting until page loads within  expectedtime period
+20240221 00:18:36 INFO  [main] utility.SalesforceListenerUtility SalesforceListenerUtility.java28 - testForgotPasssword.......test execution started........
+20240221 00:18:36 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java208 - ..............stated testForgotPasssword..............
+20240221 00:18:37 INFO  [main] base.BasePage BasePage.java68 - Forgot ButtonIs enabled and clicked
+20240221 00:18:37 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java221 - Forgot Your Password | Salesforce  matched with Forgot Your Password | Salesforce
+20240221 00:18:37 INFO  [main] base.BasePage BasePage.java87 - User Name  IS WAITED FOR VISIBLITY
+20240221 00:18:37 INFO  [main] base.BasePage BasePage.java138 - [[ChromeDriver: chrome on MAC (e997b15e98714345cec78be67a678ce6)] -> xpath: //input[@id='un']]Is enabled and clicked
+20240221 00:18:37 INFO  [main] base.BasePage BasePage.java142 - Username textboxIs displayed  in textarea
+20240221 00:18:38 INFO  [main] base.BasePage BasePage.java68 - Continue Is enabled and clicked
+20240221 00:18:38 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java241 - Check Your Email | Salesforce  matched with Check Your Email | Salesforce
+20240221 00:18:38 INFO  [main] base.BasePage BasePage.java234 - Element extracted text is = Check Your Email
+20240221 00:18:38 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java253 - Check Your Email  matched with Check Your Email
+20240221 00:18:38 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java261 - All assertions Passed
+20240221 00:18:38 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java264 - ..............ended testForgotPasssword..............
+20240221 00:18:38 INFO  [main] utility.SalesforceListenerUtility SalesforceListenerUtility.java38 - testForgotPasssword.......test execution sucess........
+20240221 00:18:38 INFO  [main] base.BaseTest BaseTest.java138 - browser is closed
+20240221 00:18:38 INFO  [main] base.BaseTest BaseTest.java56 - ******tearDownAfterTestMethod executed***********
+20240221 00:18:38 INFO  [main] base.BaseTest BaseTest.java46 - .........BeforeMethod  executed---------------
+20240221 00:18:38 INFO  [main] base.BaseTest BaseTest.java66 - Browser instance has started
+20240221 00:18:39 INFO  [main] base.BaseTest BaseTest.java147 - https://login.salesforce.com/ is entered
+20240221 00:18:39 INFO  [main] base.BaseTest BaseTest.java180 - Waiting until page loads within  expectedtime period
+20240221 00:18:39 INFO  [main] utility.SalesforceListenerUtility SalesforceListenerUtility.java28 - loginErrorMessage.......test execution started........
+20240221 00:18:39 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java270 - ..............stated loginErrorMessage..............
+20240221 00:18:40 INFO  [main] base.BasePage BasePage.java87 - UserName  IS WAITED FOR VISIBLITY
+20240221 00:18:40 INFO  [main] base.BasePage BasePage.java138 - [[ChromeDriver: chrome on MAC (5773d54ab27af551719719f9a2556754)] -> xpath: //*[@id='username']]Is enabled and clicked
+20240221 00:18:40 INFO  [main] base.BasePage BasePage.java142 - Username textboxIs displayed  in textarea
+20240221 00:18:40 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java277 - User name entered successfully
+20240221 00:18:40 INFO  [main] base.BasePage BasePage.java138 - [[ChromeDriver: chrome on MAC (5773d54ab27af551719719f9a2556754)] -> xpath: //*[@id='password']]Is enabled and clicked
+20240221 00:18:40 INFO  [main] base.BasePage BasePage.java142 - password field Is displayed  in textarea
+20240221 00:18:40 INFO  [main] base.BasePage BasePage.java87 - Login Button IS WAITED FOR VISIBLITY
+20240221 00:18:41 INFO  [main] base.BasePage BasePage.java68 - Login ButtonIs enabled and clicked
+20240221 00:18:41 INFO  [main] base.BasePage BasePage.java234 - Element extracted text is = Please check your username and password. If you still can't log in, contact your Salesforce administrator.
+20240221 00:18:41 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java288 - Please check your username and password. If you still can't log in, contact your Salesforce administrator.  matched with Please check your username and password. If you still can't log in, contact your Salesforce administrator.
+20240221 00:18:41 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java295 - All assertions Passed
+20240221 00:18:41 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java297 - ..............ended loginErrorMessage..............
+20240221 00:18:41 INFO  [main] utility.SalesforceListenerUtility SalesforceListenerUtility.java38 - loginErrorMessage.......test execution sucess........
+20240221 00:18:41 INFO  [main] base.BaseTest BaseTest.java138 - browser is closed
+20240221 00:18:41 INFO  [main] base.BaseTest BaseTest.java56 - ******tearDownAfterTestMethod executed***********
+20240221 00:18:41 INFO  [main] base.BaseTest BaseTest.java46 - .........BeforeMethod  executed---------------
+20240221 00:18:41 INFO  [main] base.BaseTest BaseTest.java66 - Browser instance has started
+20240221 00:18:43 INFO  [main] base.BaseTest BaseTest.java147 - https://login.salesforce.com/ is entered
+20240221 00:18:43 INFO  [main] base.BaseTest BaseTest.java180 - Waiting until page loads within  expectedtime period
+20240221 00:18:43 INFO  [main] utility.SalesforceListenerUtility SalesforceListenerUtility.java28 - login_Homepage.......test execution started........
+20240221 00:18:43 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java97 - ..............stated login_Homepage()...............
+20240221 00:18:43 INFO  [main] base.BasePage BasePage.java215 - Current URL is = https://login.salesforce.com/
+20240221 00:18:43 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java108 - https://login.salesforce.com/  matched with https://login.salesforce.com/
+20240221 00:18:43 INFO  [main] base.BasePage BasePage.java87 - UserName  IS WAITED FOR VISIBLITY
+20240221 00:18:43 INFO  [main] base.BasePage BasePage.java138 - [[ChromeDriver: chrome on MAC (3651e5e99298a539f67a618e159d4d40)] -> xpath: //*[@id='username']]Is enabled and clicked
+20240221 00:18:43 INFO  [main] base.BasePage BasePage.java142 - Username textboxIs displayed  in textarea
+20240221 00:18:43 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java118 - User name entered successfully
+20240221 00:18:44 INFO  [main] base.BasePage BasePage.java138 - [[ChromeDriver: chrome on MAC (3651e5e99298a539f67a618e159d4d40)] -> xpath: //*[@id='password']]Is enabled and clicked
+20240221 00:18:44 INFO  [main] base.BasePage BasePage.java142 - password field Is displayed  in textarea
+20240221 00:18:44 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java121 - Password entered successfully
+20240221 00:18:44 INFO  [main] base.BasePage BasePage.java87 - Login Button IS WAITED FOR VISIBLITY
+20240221 00:18:47 INFO  [main] base.BasePage BasePage.java68 - Login ButtonIs enabled and clicked
+20240221 00:18:49 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java133 - Home Page ~ Salesforce - Developer Edition  matched with Home Page ~ Salesforce - Developer Edition
+20240221 00:18:49 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java141 - All assertions Passed
+20240221 00:18:49 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java143 - ..............ended login_Homepage()...............
+20240221 00:18:49 INFO  [main] utility.SalesforceListenerUtility SalesforceListenerUtility.java38 - login_Homepage.......test execution sucess........
+20240221 00:18:49 INFO  [main] base.BaseTest BaseTest.java138 - browser is closed
+20240221 00:18:49 INFO  [main] base.BaseTest BaseTest.java56 - ******tearDownAfterTestMethod executed***********
+20240221 00:18:49 INFO  [main] base.BaseTest BaseTest.java46 - .........BeforeMethod  executed---------------
+20240221 00:18:49 INFO  [main] base.BaseTest BaseTest.java66 - Browser instance has started
+20240221 00:18:51 INFO  [main] base.BaseTest BaseTest.java147 - https://login.salesforce.com/ is entered
+20240221 00:18:51 INFO  [main] base.BaseTest BaseTest.java180 - Waiting until page loads within  expectedtime period
+20240221 00:18:51 INFO  [main] utility.SalesforceListenerUtility SalesforceListenerUtility.java28 - rememberUser_checkbox.......test execution started........
+20240221 00:18:51 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java149 - ..............stated  rememberUser_checkbox..............
+20240221 00:18:51 INFO  [main] base.BasePage BasePage.java87 - UserName  IS WAITED FOR VISIBLITY
+20240221 00:18:51 INFO  [main] base.BasePage BasePage.java138 - [[ChromeDriver: chrome on MAC (67c40781e91a888f78300a40661a1a4d)] -> xpath: //*[@id='username']]Is enabled and clicked
+20240221 00:18:51 INFO  [main] base.BasePage BasePage.java142 - Username textboxIs displayed  in textarea
+20240221 00:18:51 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java156 - User name entered successfully
+20240221 00:18:52 INFO  [main] base.BasePage BasePage.java138 - [[ChromeDriver: chrome on MAC (67c40781e91a888f78300a40661a1a4d)] -> xpath: //*[@id='password']]Is enabled and clicked
+20240221 00:18:52 INFO  [main] base.BasePage BasePage.java142 - password field Is displayed  in textarea
+20240221 00:18:52 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java159 - Password entered successfully
+20240221 00:18:52 INFO  [main] base.BasePage BasePage.java87 - Remember me checkbox IS WAITED FOR VISIBLITY
+20240221 00:18:52 INFO  [main] base.BasePage BasePage.java68 - Remember me Is enabled and clicked
+20240221 00:18:52 INFO  [main] base.BasePage BasePage.java87 - Login Button IS WAITED FOR VISIBLITY
+20240221 00:18:57 INFO  [main] base.BasePage BasePage.java68 - Login ButtonIs enabled and clicked
+20240221 00:18:57 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java174 - Home Page ~ Salesforce - Developer Edition  matched with Home Page ~ Salesforce - Developer Edition
+20240221 00:18:57 INFO  [main] base.BasePage BasePage.java87 - User account  IS WAITED FOR VISIBLITY
+20240221 00:18:59 INFO  [main] base.BasePage BasePage.java87 - Username Label  IS WAITED FOR VISIBLITY
+20240221 00:18:59 INFO  [main] base.BasePage BasePage.java234 - Element extracted text is = sweety123@yahoo.com
+20240221 00:18:59 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java191 - sweety123@yahoo.com  matched with sweety123@yahoo.com
+20240221 00:18:59 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java199 - All assertions Passed
+20240221 00:18:59 INFO  [main] automationscripts.SalesforceLoginPage_Testcases SalesforceLoginPage_Testcases.java202 - .............ended rememberUser_checkbox..............
+20240221 00:18:59 INFO  [main] utility.SalesforceListenerUtility SalesforceListenerUtility.java38 - rememberUser_checkbox.......test execution sucess........
+20240221 00:19:00 INFO  [main] base.BaseTest BaseTest.java138 - browser is closed
+20240221 00:19:00 INFO  [main] base.BaseTest BaseTest.java56 - ******tearDownAfterTestMethod executed***********
+20240221 00:19:00 INFO  [main] utility.SalesforceListenerUtility SalesforceListenerUtility.java73 - .......<test> execution completed........

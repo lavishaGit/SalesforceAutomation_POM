@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-02-21T00:18:29 PST" name="Regression Suite" finished-at="2024-02-21T00:19:00 PST" duration-ms="30408">
+    <groups>
+    </groups>
+    <test started-at="2024-02-21T00:18:29 PST" name="Test_Login" finished-at="2024-02-21T00:19:00 PST" duration-ms="30408">
+      <class name="com.tekarch.salesforce.automationscripts.SalesforceLoginPage_Testcases">
+        <test-method is-config="true" signature="setUpBeforeMethod(java.lang.String)[pri:0, instance:com.tekarch.salesforce.automationscripts.SalesforceLoginPage_Testcases@c7a975a]" started-at="2024-02-21T00:18:29 PST" name="setUpBeforeMethod" finished-at="2024-02-21T00:18:33 PST" duration-ms="3192" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeMethod -->
+        <test-method signature="loginPage_EmptyPassword()[pri:0, instance:com.tekarch.salesforce.automationscripts.SalesforceLoginPage_Testcases@c7a975a]" started-at="2024-02-21T00:18:33 PST" name="loginPage_EmptyPassword" finished-at="2024-02-21T00:18:34 PST" duration-ms="1734" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPage_EmptyPassword -->
+        <test-method is-config="true" signature="tearDownAfterTestMethod()[pri:0, instance:com.tekarch.salesforce.automationscripts.SalesforceLoginPage_Testcases@c7a975a]" started-at="2024-02-21T00:18:34 PST" name="tearDownAfterTestMethod" finished-at="2024-02-21T00:18:34 PST" duration-ms="129" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownAfterTestMethod -->
+        <test-method is-config="true" signature="setUpBeforeMethod(java.lang.String)[pri:0, instance:com.tekarch.salesforce.automationscripts.SalesforceLoginPage_Testcases@c7a975a]" started-at="2024-02-21T00:18:34 PST" name="setUpBeforeMethod" finished-at="2024-02-21T00:18:36 PST" duration-ms="1927" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeMethod -->
+        <test-method signature="testForgotPasssword()[pri:1, instance:com.tekarch.salesforce.automationscripts.SalesforceLoginPage_Testcases@c7a975a]" started-at="2024-02-21T00:18:36 PST" name="testForgotPasssword" finished-at="2024-02-21T00:18:38 PST" duration-ms="1335" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testForgotPasssword -->
+        <test-method is-config="true" signature="tearDownAfterTestMethod()[pri:0, instance:com.tekarch.salesforce.automationscripts.SalesforceLoginPage_Testcases@c7a975a]" started-at="2024-02-21T00:18:38 PST" name="tearDownAfterTestMethod" finished-at="2024-02-21T00:18:38 PST" duration-ms="166" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownAfterTestMethod -->
+        <test-method is-config="true" signature="setUpBeforeMethod(java.lang.String)[pri:0, instance:com.tekarch.salesforce.automationscripts.SalesforceLoginPage_Testcases@c7a975a]" started-at="2024-02-21T00:18:38 PST" name="setUpBeforeMethod" finished-at="2024-02-21T00:18:39 PST" duration-ms="1559" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeMethod -->
+        <test-method signature="loginErrorMessage()[pri:2, instance:com.tekarch.salesforce.automationscripts.SalesforceLoginPage_Testcases@c7a975a]" started-at="2024-02-21T00:18:39 PST" name="loginErrorMessage" finished-at="2024-02-21T00:18:41 PST" duration-ms="1379" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginErrorMessage -->
+        <test-method is-config="true" signature="tearDownAfterTestMethod()[pri:0, instance:com.tekarch.salesforce.automationscripts.SalesforceLoginPage_Testcases@c7a975a]" started-at="2024-02-21T00:18:41 PST" name="tearDownAfterTestMethod" finished-at="2024-02-21T00:18:41 PST" duration-ms="120" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownAfterTestMethod -->
+        <test-method is-config="true" signature="setUpBeforeMethod(java.lang.String)[pri:0, instance:com.tekarch.salesforce.automationscripts.SalesforceLoginPage_Testcases@c7a975a]" started-at="2024-02-21T00:18:41 PST" name="setUpBeforeMethod" finished-at="2024-02-21T00:18:43 PST" duration-ms="1902" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeMethod -->
+        <test-method signature="login_Homepage()[pri:3, instance:com.tekarch.salesforce.automationscripts.SalesforceLoginPage_Testcases@c7a975a]" started-at="2024-02-21T00:18:43 PST" name="login_Homepage" finished-at="2024-02-21T00:18:49 PST" duration-ms="5746" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_Homepage -->
+        <test-method is-config="true" signature="tearDownAfterTestMethod()[pri:0, instance:com.tekarch.salesforce.automationscripts.SalesforceLoginPage_Testcases@c7a975a]" started-at="2024-02-21T00:18:49 PST" name="tearDownAfterTestMethod" finished-at="2024-02-21T00:18:49 PST" duration-ms="157" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownAfterTestMethod -->
+        <test-method is-config="true" signature="setUpBeforeMethod(java.lang.String)[pri:0, instance:com.tekarch.salesforce.automationscripts.SalesforceLoginPage_Testcases@c7a975a]" started-at="2024-02-21T00:18:49 PST" name="setUpBeforeMethod" finished-at="2024-02-21T00:18:51 PST" duration-ms="2038" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeMethod -->
+        <test-method signature="rememberUser_checkbox()[pri:4, instance:com.tekarch.salesforce.automationscripts.SalesforceLoginPage_Testcases@c7a975a]" started-at="2024-02-21T00:18:51 PST" name="rememberUser_checkbox" finished-at="2024-02-21T00:18:59 PST" duration-ms="8668" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- rememberUser_checkbox -->
+        <test-method is-config="true" signature="tearDownAfterTestMethod()[pri:0, instance:com.tekarch.salesforce.automationscripts.SalesforceLoginPage_Testcases@c7a975a]" started-at="2024-02-21T00:18:59 PST" name="tearDownAfterTestMethod" finished-at="2024-02-21T00:19:00 PST" duration-ms="138" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownAfterTestMethod -->
+      </class> <!-- com.tekarch.salesforce.automationscripts.SalesforceLoginPage_Testcases -->
+    </test> <!-- Test_Login -->
+  </suite> <!-- Regression Suite -->
+</testng-results>
