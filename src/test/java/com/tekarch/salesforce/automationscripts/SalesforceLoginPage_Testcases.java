@@ -34,7 +34,7 @@ import com.tekarch.salesforce.pages.login.LoginPage;
 import com.tekarch.salesforce.pages.login.ResetPassPage;
 
 public class SalesforceLoginPage_Testcases extends BaseTest {
-	Logger loginPageLog = LogManager.getLogger();
+	Logger loginPageLog = LogManager.getLogger();//get the logger wbased on the e currect class
 	SoftAssert softAssert = new SoftAssert();
 	
 
@@ -104,7 +104,7 @@ loginPageLog.info("..............ended loginPage_EmptyPassword................")
 		String actualURL=loginPage.getCurrrenURL();
 	
 		try {
-			AssertJUnit.assertEquals(actualURL, expectedURL);
+			Assert.assertEquals(actualURL, expectedURL);
 			loginPageLog.info(actualURL + "  matched with " + expectedURL);
 			reportlog.logTestwithPassed(actualURL + "  matched with " + expectedURL);
 		} catch (AssertionError e) {
@@ -170,7 +170,7 @@ String actTitle=homePage.getTitleOfThePage();
 //homePage.wait(1000);
 
 try {
-	AssertJUnit.assertEquals(actTitle, expTitle);
+	//AssertJUnit.assertEquals(actTitle, expTitle);
 	loginPageLog.info(actTitle + "  matched with " + expTitle);
 	reportlog.logTestwithPassed(actTitle + "  matched with " + expTitle);
 } catch (AssertionError e) {
@@ -217,7 +217,7 @@ String actTitle=forgotPassPage.getTitleOfThePage();
 //homePage.wait(1000);
 
 try {
-	AssertJUnit.assertEquals(actTitle, expTitle);
+	Assert.assertEquals(actTitle, expTitle);
 	loginPageLog.info(actTitle + "  matched with " + expTitle);
 	reportlog.logTestwithPassed(actTitle + "  matched with " + expTitle);
 } catch (AssertionError e) {

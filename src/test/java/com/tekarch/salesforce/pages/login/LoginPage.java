@@ -18,11 +18,14 @@ public class LoginPage extends BasePage{
 	@FindBy(xpath="//span[@id='idcard-identity']") WebElement userNameTxt ;
 	@FindBy(id="forgot_password_link") WebElement forgotPassBttn;
 	@FindBy(css ="div#error.loginError" )WebElement loginErrorlabel;
-
+	@FindBy(xpath="//button[contains(@class,'closeButton')]") WebElement adCloseBttn;
+	@FindBy(xpath="//button[@title='Close']")
+	WebElement dialogCloseeBttn;
 
 	public LoginPage(WebDriver driver) {
 		super(driver);
 	}
+	
 	
 	public void enterUserName(String data) {
 		//userNameElement.sendKeys(data);
@@ -35,7 +38,15 @@ public class LoginPage extends BasePage{
 
 	}
 	
+	public void adCloseBttn(String data) {
+		clickbutton(adCloseBttn, data);
+
+	}
 	
+	public void dialogCloseBttn(String data) {
+		clickbutton(dialogCloseeBttn, data);
+
+	}
 	
 	public String getTitleOfThePage() {
 		//waitUntilPageLoads();

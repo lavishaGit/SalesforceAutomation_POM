@@ -14,7 +14,7 @@ public class HomePage extends BasePage {
 	@FindBy(xpath="//a[@title='Logout']") WebElement logout;
 
 	public HomePage(WebDriver driver) {
-		super(driver);
+		super(driver);  // calss the basepage constructor uses driver amd initelemmets 
 	}
 	
 	public WebDriver logout() throws InterruptedException {

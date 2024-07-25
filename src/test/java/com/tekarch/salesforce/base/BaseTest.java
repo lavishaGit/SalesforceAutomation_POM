@@ -16,6 +16,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.safari.SafariDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Optional;
@@ -40,22 +41,23 @@ public class BaseTest {
 	// protected WebDriver driver=null;
 	@Parameters({ "browser" })
 
-	@BeforeMethod
-
+//	@BeforeMethod   [change if run SalesforceloginPage_Testcases)
+@BeforeClass
 	public void setUpBeforeMethod(@Optional("chrome") String name) throws Exception {
 		myBaseTestLog.info(".........BeforeMethod  executed---------------");
 		initializeBrowser(name);
 		String url = PropertyUtility.readdatatofile(Constants.applicationPropertyPath, "url");
 		baseURL(url);
-		waitUntilPageLoads();
+		waitUntilPageLoads(20);
+		driver.manage().window().maximize();
 	}
 
-	@AfterMethod
+/*	@AfterMethod
 	public void tearDownAfterTestMethod() {
 		driverClose();
 		myBaseTestLog.info("******tearDownAfterTestMethod executed***********");
 	}
-
+*/
 	public void initializeBrowser(String browser) {
 
 		if (browser.equalsIgnoreCase("Chrome")) {
@@ -176,10 +178,10 @@ public class BaseTest {
 
 	}
 
-	public void waitUntilPageLoads() {
+	public void waitUntilPageLoads(long time) {
 		myBaseTestLog.info("Waiting until page loads within  expectedtime period");
 		// reportlog.logTestInfo("Waiting until page loads within expectedtime period");
-		driver.manage().timeouts().pageLoadTimeout(40, TimeUnit.SECONDS);
+		driver.manage().timeouts().pageLoadTimeout(time, TimeUnit.SECONDS);
 	}
 
 }

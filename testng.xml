@@ -7,7 +7,8 @@
 	</listeners>
   <test  name="Test_Login">
     <classes>
-      <class name="com.tekarch.salesforce.automationscripts.SalesforceLoginPage_Testcases"/>
+    <class name="com.lighteningSalesforce.LoginAccountsTestcases"/>
+     <!--  <class name="com.tekarch.salesforce.automationscripts.SalesforceLoginPage_Testcases"/> -->
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

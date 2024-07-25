@@ -4,8 +4,10 @@ import static org.testng.Assert.assertEquals;
 
 import java.io.File;
 import java.io.IOException;
+import java.time.Duration;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Map;
 import java.util.concurrent.TimeUnit;
 
 import org.apache.logging.log4j.LogManager;
@@ -13,11 +15,13 @@ import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.ElementNotInteractableException;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.remote.RemoteWebElement;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.FluentWait;
@@ -28,13 +32,14 @@ import org.testng.Assert;
 import org.testng.annotations.Listeners;
 import org.testng.asserts.SoftAssert;
 
+import com.google.common.collect.ImmutableMap;
 import com.google.common.io.Files;
 import com.salesforce.utility.ExtentUtility;
 
 @Listeners(com.salesforce.utility.SalesforceListenerUtility.class)
 
 public class BasePage {
-	public WebDriver driver = null;
+	public WebDriver driver ;
 	protected Wait<WebDriver> wait = null;
 	protected Logger mybasePagelog = LogManager.getLogger();
 	protected ExtentUtility reportlog = ExtentUtility.getinstance();
@@ -104,12 +109,24 @@ throw e;}
 			throw e;
 		}
 	}
+	public void waitForVisibiltyofElementLocated(WebElement ele, int time,String Objname) throws Exception {
+		try {
+
+			wait = new WebDriverWait(driver, time);
+			wait.until(ExpectedConditions.visibilityOf(ele));
+			mybasePagelog.info(Objname + " IS WAITED FOR VISIBLITY OF ELEMENT TO BE LOCATED");
+			reportlog.logTestInfo(Objname + " IS WAITED FOR VISIBLITY OF ELEMENT TO BE LOCATED");
+		} catch (Exception e) {
+			mybasePagelog.error(Objname + " timeout exception");
+			throw e;
+		}
+	}
 
 	public void waitForclickable(WebElement ele, int time, String Objname) throws Exception {
 		try {
 
 			mybasePagelog.info(Objname + " IS WAITED FOR clickable");
-			wait = new WebDriverWait(driver, time);
+			wait = new WebDriverWait(driver,time);//time is in seconds
 			wait.until(ExpectedConditions.elementToBeClickable(ele));
 		} catch (Exception e) {
 			mybasePagelog.error(Objname + " did not become visible within the specified time" + e.getMessage());
@@ -385,10 +402,10 @@ throw e;
 		}
 	}
 
-	public void waitUntilPageLoads() {
+	public void waitUntilPageLoads(long time) {
 		mybasePagelog.info("Waiting until page loads within  expectedtime period");
 		// reportlog.logTestInfo("Waiting until page loads within expectedtime period");
-		driver.manage().timeouts().pageLoadTimeout(40, TimeUnit.SECONDS);
+		driver.manage().timeouts().pageLoadTimeout(time, TimeUnit.SECONDS);
 	}
 
 	/*
@@ -560,8 +577,29 @@ throw e;
 		}
 		//
 	}
+	
+	
 	public WebDriver getDriverInstance() {
 		return this.driver;
 	
 	}
+	public void javascriptClick(WebDriver driver, WebElement element) {
+	    JavascriptExecutor js = (JavascriptExecutor) driver;
+	    js.executeScript("arguments[0].click();", element);
+	}
+	public void javascriptScrollToElement(WebDriver driver, WebElement element) {
+	    JavascriptExecutor js = (JavascriptExecutor) driver;
+	    js.executeScript("arguments[0].scrollIntoView(true);", element);
+	}
+	public void javascriptScrollToExpDateElement(WebDriver driver, WebElement element) {
+	    JavascriptExecutor js = (JavascriptExecutor) driver;
+	    js.executeScript("arguments[0].scrollIntoView(true);", element);
+	}
+	public void hoverElement(WebElement element) {
+		action = new Actions(driver);
+
+		action.moveToElement(element).perform();;
+		
+	}
+	
 }

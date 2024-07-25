@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.tekarch.salesforce.automationscripts.SalesforceLoginPage_Testcases">
+      <class name="com.lighteningSalesforce.ContactsTestCases">
         <methods>
+          <include name="setUp"/>
+          <include name="createContacts"/>
           <include name="setUpBeforeMethod"/>
-          <include name="testForgotPasssword"/>
-          <include name="tearDownAfterTestMethod"/>
         </methods>
-      </class> <!-- com.tekarch.salesforce.automationscripts.SalesforceLoginPage_Testcases -->
+      </class> <!-- com.lighteningSalesforce.ContactsTestCases -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Configuration>
   <Appenders>
-	<File name="FILEOUT" fileName="logs/mylogs.log" append="true">
-  	<PatternLayout>
+<RollingFile name="FILEOUT" fileName="logs/mylogs.log" 
+                 filePattern="logs/mylogs-%d{yyyy-MM-dd}.log" append="true">  
+                 	<PatternLayout>
     	<Pattern>%d{yyyyMMdd HH:mm:ss} %-5p [%t] %C{2} %F%L - %m%n</Pattern>
   	</PatternLayout>
-	</File>
+  	<Policies>
+        <TimeBasedTriggeringPolicy />
+      </Policies>
+	</RollingFile>
 
 	<Console name="STDOUT" target="SYSTEM_OUT">
   	<PatternLayout pattern="%d %-5p %F:%L - %m%n"/>
